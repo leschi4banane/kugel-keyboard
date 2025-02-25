@@ -1,0 +1,12 @@
+# Copyright (c) 2022 Space Cubics, LLC.
+# SPDX-License-Identifier: Apache-2.0
+
+config LIB_LED_TEST
+	bool "Enable lib-led-test"
+	help
+	  This option enables the lib-led-test as a Zephyr module.
+
+config APP_LINK_WITH_LED_TEST
+	bool "Make lib-led-test header file available to application"
+	default y
+	depends on LIB_LED_TEST

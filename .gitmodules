@@ -1,3 +1,6 @@
 [submodule "ref/KLOTZ"]
 	path = ref/KLOTZ
 	url = https://github.com/GEIGEIGEIST/KLOTZ
+[submodule "ref/module-sample"]
+	path = ref/module-sample
+	url = git@github.com:yashi/module-sample.git
