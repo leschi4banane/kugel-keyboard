@@ -5,5 +5,5 @@
 	path = ref/module-sample
 	url = git@github.com:yashi/module-sample.git
 [submodule "zmk/zmk-modules/led-test-module"]
-	path = zmk/zmk-modules/led-test-module
-	url = git@github.com:T0mmy312/led-test-module.git
+	path = zmk/zmk-modules/zmk-led-test
+	url = git@github.com:T0mmy312/zmk-led-test.git
