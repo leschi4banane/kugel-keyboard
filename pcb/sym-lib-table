@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "custom-libary")(type "KiCad")(uri "${KIPRJMOD}/custom-libary")(options "")(descr ""))
+)

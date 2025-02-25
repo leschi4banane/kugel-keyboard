@@ -1,0 +1,3567 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6cfa0f05-d3ea-41d5-8615-030d5d9d7a38")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Small"
+				(at -3.81 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KLOTZ:MX_SW_HS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MX_SW_HS"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX_SW_HS_0_1"
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "marbastlib-mx:MX_SW_HS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MX_SW_HS"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "marbastlib-mx:SW_MX_HS_1u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX_SW_HS_0_1"
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 212.598 93.218)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0535e55a-67e2-4c4c-89e9-0e31dad2f878")
+	)
+	(junction
+		(at 223.52 56.134)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18aaf9d7-5e2c-4234-ab91-2691748c7772")
+	)
+	(junction
+		(at 212.598 74.422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1db1dfa1-ec91-43c5-bf49-cb83d9e74a92")
+	)
+	(junction
+		(at 245.364 74.422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f7f565b-2f8d-491f-b8e9-f67f45ee7667")
+	)
+	(junction
+		(at 245.364 56.134)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28b79580-16c0-41e5-a63d-cecb07c127c9")
+	)
+	(junction
+		(at 207.518 64.262)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c5d36bf-2d23-4123-868f-b48658108f0a")
+	)
+	(junction
+		(at 218.44 83.058)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41a4dc25-16f6-4979-9081-f8fa194df18c")
+	)
+	(junction
+		(at 240.284 45.974)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42750a0a-173f-4b39-a1c2-bfdc35d66da8")
+	)
+	(junction
+		(at 223.52 93.218)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "539a651a-d601-48e5-8781-8642eec4a793")
+	)
+	(junction
+		(at 229.362 64.262)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6503e1d4-bdd7-4574-8901-c516630e005f")
+	)
+	(junction
+		(at 251.206 64.262)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70e92522-5c85-474d-bf55-7d232343770c")
+	)
+	(junction
+		(at 212.598 56.134)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72e35b48-a552-4647-8fc5-f47d42799063")
+	)
+	(junction
+		(at 218.44 64.262)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7928b0d8-65d7-40fc-9032-f415962ab7a5")
+	)
+	(junction
+		(at 223.52 74.422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7da67b22-f591-4897-b358-f48a07e224fa")
+	)
+	(junction
+		(at 218.44 45.974)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85704c26-8137-49e0-99fb-34c68e3afa0f")
+	)
+	(junction
+		(at 251.206 45.974)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e257d4f-6a5d-4102-9aae-12b991b5e8b6")
+	)
+	(junction
+		(at 207.518 45.974)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "954ef47f-bff8-4b04-8603-cf6fb50a9df0")
+	)
+	(junction
+		(at 207.518 83.058)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95faba5a-37af-474a-89d5-8343f5ff694d")
+	)
+	(junction
+		(at 234.442 93.218)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b572a918-948d-4da4-8a32-4852c7ff5255")
+	)
+	(junction
+		(at 240.284 64.262)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6578054-6a03-4137-87aa-2d89d1accf89")
+	)
+	(junction
+		(at 229.362 45.974)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e97844d0-0b2f-4933-b87e-3f74ab6f1cd6")
+	)
+	(junction
+		(at 245.364 93.218)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb0ca0e5-7edb-4abb-a188-9c3275a61e72")
+	)
+	(junction
+		(at 234.442 74.422)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edfc84c1-d748-4246-9873-cdf04ec72301")
+	)
+	(junction
+		(at 212.598 110.998)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f85cc3ed-75e9-4798-8e5a-052bf9063a7d")
+	)
+	(junction
+		(at 234.442 56.134)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbde8872-1282-45a3-bdb0-d7d5d685d402")
+	)
+	(wire
+		(pts
+			(xy 234.442 56.134) (xy 245.364 56.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04aad5b5-b4fe-4136-9e75-4a81c63a0255")
+	)
+	(wire
+		(pts
+			(xy 234.442 74.422) (xy 245.364 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6de652-9575-447a-94c1-809821ff6eea")
+	)
+	(wire
+		(pts
+			(xy 207.518 64.262) (xy 207.518 83.058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d3888e-cb11-426c-ab36-cb08045ffbf6")
+	)
+	(wire
+		(pts
+			(xy 212.598 110.998) (xy 223.52 110.998)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16058c54-5acf-4eab-8524-cebfa406a3cf")
+	)
+	(wire
+		(pts
+			(xy 212.598 93.218) (xy 223.52 93.218)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fb974e2-b588-4292-80be-1a8bd5a9d42b")
+	)
+	(wire
+		(pts
+			(xy 234.442 93.218) (xy 245.364 93.218)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d9add3-c455-45f9-afa4-8a2856afc77e")
+	)
+	(wire
+		(pts
+			(xy 218.44 39.624) (xy 218.44 45.974)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35966591-8548-4f07-86a6-38e9a3100af1")
+	)
+	(wire
+		(pts
+			(xy 223.52 93.218) (xy 234.442 93.218)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ceb3037-7734-4c8b-b920-fb3965538d25")
+	)
+	(wire
+		(pts
+			(xy 245.364 74.422) (xy 256.286 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "439365c1-5d69-43da-8059-350eeee3ed9e")
+	)
+	(wire
+		(pts
+			(xy 223.52 56.134) (xy 234.442 56.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48dc6f6c-9588-4379-958e-6abd2f6d17ce")
+	)
+	(wire
+		(pts
+			(xy 240.284 45.974) (xy 240.284 64.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ef87860-05a9-4089-91a7-47e0f22b8623")
+	)
+	(wire
+		(pts
+			(xy 218.44 83.058) (xy 218.44 100.838)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e95c2af-e78c-447f-9901-b68411bb7162")
+	)
+	(wire
+		(pts
+			(xy 229.362 39.624) (xy 229.362 45.974)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2da20e-46b6-4832-a3bd-ac95f6289145")
+	)
+	(wire
+		(pts
+			(xy 218.44 45.974) (xy 218.44 64.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7970df16-1e40-4050-b2e0-5811295dfa5a")
+	)
+	(wire
+		(pts
+			(xy 212.598 74.422) (xy 223.52 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b767c07-50b9-4cee-98f1-ff9258b30e74")
+	)
+	(wire
+		(pts
+			(xy 207.518 39.624) (xy 207.518 45.974)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "829cd22a-7112-496f-962b-ac7c8703a72c")
+	)
+	(wire
+		(pts
+			(xy 207.518 83.058) (xy 207.518 100.838)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a06734-d1f6-4514-8992-1f34d3858a3a")
+	)
+	(wire
+		(pts
+			(xy 204.724 74.422) (xy 212.598 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a57084-56fa-4fd3-b983-837ddae0f8ae")
+	)
+	(wire
+		(pts
+			(xy 245.364 93.218) (xy 256.286 93.218)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91702c96-54d0-4f76-a233-f91fda2fa5cb")
+	)
+	(wire
+		(pts
+			(xy 245.364 56.134) (xy 256.286 56.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98fca0b2-b371-42d3-8de4-1ab6e9990336")
+	)
+	(wire
+		(pts
+			(xy 204.724 110.998) (xy 212.598 110.998)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18c7eb5-0444-4c47-88f0-885f095bdc53")
+	)
+	(wire
+		(pts
+			(xy 218.44 64.262) (xy 218.44 83.058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2db059d-01a5-4220-93ab-a9bd8b4cd3b2")
+	)
+	(wire
+		(pts
+			(xy 212.598 56.134) (xy 223.52 56.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa16fcba-dfc7-4820-81b8-6018b3c094e5")
+	)
+	(wire
+		(pts
+			(xy 240.284 64.262) (xy 240.284 83.058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3246137-16a5-4a5b-b10f-ead3e0f696c9")
+	)
+	(wire
+		(pts
+			(xy 223.52 74.422) (xy 234.442 74.422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b54ee3e9-c577-47ce-a76e-5d87b3fb2a9f")
+	)
+	(wire
+		(pts
+			(xy 229.362 64.262) (xy 229.362 83.058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7197d1a-bd5f-4cd7-bdfc-f54921c4da83")
+	)
+	(wire
+		(pts
+			(xy 251.206 39.624) (xy 251.206 45.974)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c5053c-fab0-4e52-bb3e-57e80133744f")
+	)
+	(wire
+		(pts
+			(xy 229.362 45.974) (xy 229.362 64.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beab9421-bcb3-46ca-8931-860c58c50e72")
+	)
+	(wire
+		(pts
+			(xy 207.518 45.974) (xy 207.518 64.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1375ee9-8406-42fc-a420-69c4e47459e7")
+	)
+	(wire
+		(pts
+			(xy 251.206 45.974) (xy 251.206 64.262)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de263427-d679-4691-b02b-71d6d16401e1")
+	)
+	(wire
+		(pts
+			(xy 251.206 64.262) (xy 251.206 83.058)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f2c57c-5771-4942-90f9-9c93a4d90afd")
+	)
+	(wire
+		(pts
+			(xy 204.724 56.134) (xy 212.598 56.134)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f975ad-b471-4df5-a140-8eeccf1316ee")
+	)
+	(wire
+		(pts
+			(xy 204.724 93.218) (xy 212.598 93.218)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f90ae5b6-cc47-47a6-a9dd-f58a8a10367f")
+	)
+	(wire
+		(pts
+			(xy 240.284 39.624) (xy 240.284 45.974)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac7f797-559f-4be9-a084-4e406ebdc2b5")
+	)
+	(global_label "col1"
+		(shape input)
+		(at 240.284 39.624 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "185c351c-f132-4ed1-95a9-ea9696b78728")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.2046 33.0985 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col0"
+		(shape input)
+		(at 251.206 39.624 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e5638de-bf8d-4a1b-ba31-1f80f8f4068f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.1266 33.0985 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col4"
+		(shape input)
+		(at 207.518 39.624 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62392a20-93de-447d-9c28-0e6159a8ac8f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.4386 33.0985 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col2"
+		(shape input)
+		(at 229.362 39.624 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c15e281-1b1b-43d4-972d-4eb5a897c588")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.2826 33.0985 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row2"
+		(shape input)
+		(at 204.724 93.218 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "710ec066-70d1-4712-839c-79b0b1c29f7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.8357 93.1386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row3"
+		(shape input)
+		(at 204.724 110.998 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "addff0f5-422a-406d-adbe-39f1de9d6cee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.8357 110.9186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row0"
+		(shape input)
+		(at 204.724 56.134 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d09f9604-3c1a-41b2-a3b6-3b60fa187977")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.8357 56.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row1"
+		(shape input)
+		(at 204.724 74.422 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0e43c4a-b5b2-43cc-bfe3-72f099cd3fe0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.8357 74.3426 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col3"
+		(shape input)
+		(at 218.44 39.624 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f2f967ea-1c66-45ea-ab49-616227fe7094")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.3606 33.0985 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 245.364 90.678 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01457d9f-7ace-421c-adce-2f07d776bb68")
+		(property "Reference" "D14"
+			(at 247.65 90.6779 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 247.65 91.9479 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 245.364 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.364 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.364 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93d81220-53e8-4365-9e41-0b9a42ee751e")
+		)
+		(pin "2"
+			(uuid "229c17e3-c567-4dcb-b53a-9a7a66fbf1a0")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 234.442 71.882 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c68a967-3dcd-469e-8535-24da7d0d2295")
+		(property "Reference" "D10"
+			(at 236.22 71.8819 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 236.22 73.1519 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 234.442 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.442 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.442 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28ec9f1b-10e8-4190-8ba2-90d30434fd39")
+		)
+		(pin "2"
+			(uuid "2dd16800-7ee2-4faa-ab7a-d60dcff90c96")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 212.598 108.458 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d5c45c5-abd1-448b-b5be-cbf5bb0fb084")
+		(property "Reference" "D4"
+			(at 214.63 108.4579 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 214.63 109.7279 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 212.598 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.598 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.598 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6df72d02-e1fe-40c5-b7c0-644a17211c57")
+		)
+		(pin "2"
+			(uuid "8851ee17-50f7-4f23-8008-8f9ab048f6bc")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 245.364 71.882 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1456e669-4075-4f8c-9218-6f57c4962fe9")
+		(property "Reference" "D13"
+			(at 247.65 71.8819 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 247.65 73.1519 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 245.364 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.364 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.364 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "416d1763-9e1f-468b-8cea-e9bc9189fee7")
+		)
+		(pin "2"
+			(uuid "28e87130-ab39-4af9-a57f-587975ad6b56")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS")
+		(at 231.902 48.514 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17e638ab-39a9-4b9c-95c0-4e1ddd8c3eab")
+		(property "Reference" "SW9"
+			(at 231.902 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 231.902 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom-libary:Kailh_socket_PG1350"
+			(at 231.902 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.902 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.902 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd11eb9d-71b6-4ad4-ba76-11f7c6decc43")
+		)
+		(pin "2"
+			(uuid "796a62bc-ef5f-4577-8e20-264495f8e512")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KLOTZ:MX_SW_HS")
+		(at 210.058 48.514 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21816776-685f-456b-bebe-476af4fea259")
+		(property "Reference" "SW1"
+			(at 210.058 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 210.058 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom-libary:Kailh_socket_PG1350"
+			(at 210.058 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.058 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.058 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82d4ce6f-9e6d-4bfa-a31d-36c43a5cd766")
+		)
+		(pin "2"
+			(uuid "53386b77-b2e1-4800-b898-bfe319010f8c")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 256.286 71.882 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ce8b2e0-a5b2-4b36-81b0-978d787d9084")
+		(property "Reference" "D16"
+			(at 259.08 71.8819 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 259.08 73.1519 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 256.286 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.286 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.286 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c3646ad-b829-4e05-b936-9906b53f0ea0")
+		)
+		(pin "2"
+			(uuid "321b1ea8-ba9b-4abc-abe6-9221af59a5e2")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS")
+		(at 210.058 66.802 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30b0d122-2ea6-4c86-8211-c1013620e521")
+		(property "Reference" "SW2"
+			(at 210.058 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 210.058 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom-libary:Kailh_socket_PG1350"
+			(at 210.058 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.058 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.058 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0eab2a1-505e-4199-99d8-827e8e8342cb")
+		)
+		(pin "2"
+			(uuid "e04e20c0-f67c-48f3-b807-8151c95f2180")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KLOTZ:MX_SW_HS")
+		(at 220.98 48.514 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a3853d4-8fd3-4147-a8a6-ad2773155bb8")
+		(property "Reference" "SW5"
+			(at 220.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 220.98 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom-libary:Kailh_socket_PG1350"
+			(at 220.98 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bbd0d54-4493-4847-9a6c-529a520da24c")
+		)
+		(pin "2"
+			(uuid "cd28e719-c887-4165-b3e9-8cac87b20b5f")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS")
+		(at 253.746 85.598 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fd70fd3-245f-4564-93c4-2dd4b72572cf")
+		(property "Reference" "SW17"
+			(at 253.746 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 253.746 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom-libary:Kailh_socket_PG1350"
+			(at 253.746 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 253.746 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 253.746 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43f29ebb-bd1b-437e-8fcf-e32bf40eee2a")
+		)
+		(pin "2"
+			(uuid "9e0c798a-886d-4e93-bf8b-abf3885d0c68")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 256.286 90.678 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "538ed704-b0f7-4c18-bc22-ae446e9f8cff")
+		(property "Reference" "D17"
+			(at 259.08 90.6779 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 259.08 91.9479 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 256.286 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.286 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.286 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36568ffd-bf76-4c90-bb1a-31fac613cce2")
+		)
+		(pin "2"
+			(uuid "6dc5fe3a-31c8-4a34-b632-91bf75b42cd6")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 223.52 53.594 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c25a88c-1b09-42fa-a694-3c6c0514929a")
+		(property "Reference" "D5"
+			(at 226.06 53.5939 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 226.06 54.8639 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 223.52 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e84dd27-68fb-462b-9ad9-1dcf122b9eb0")
+		)
+		(pin "2"
+			(uuid "217e8a4d-1578-406f-896c-f131d596407e")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 223.52 90.678 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f22cca9-655e-4794-8d6a-7d29d2c501e5")
+		(property "Reference" "D7"
+			(at 226.06 90.6779 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 226.06 91.9479 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 223.52 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0593b82-1229-44b8-8229-974aa1604e92")
+		)
+		(pin "2"
+			(uuid "e71c9e42-a4b4-454c-94d6-e95943332a59")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS")
+		(at 220.98 103.378 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65b056ac-0634-4bd6-85c5-047ca7afd27d")
+		(property "Reference" "SW8"
+			(at 220.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 220.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom-libary:Kailh_socket_PG1350"
+			(at 220.98 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8552d9cb-8515-446f-8fde-4becb55349a3")
+		)
+		(pin "2"
+			(uuid "ad983b87-99e8-4388-a40a-3be1dae4bdf1")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 256.286 53.594 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8383f166-c7d0-4e05-b5cb-f0ccc32ddcff")
+		(property "Reference" "D15"
+			(at 259.08 53.5939 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 259.08 54.8639 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 256.286 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.286 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.286 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4801f5b1-b898-478b-8c18-9b35c528b1c4")
+		)
+		(pin "2"
+			(uuid "f4ffabd4-7769-4a84-a841-f87f5919a42a")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS")
+		(at 253.746 48.514 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86fd73a0-58ed-4709-9f6c-909bdd58e9d9")
+		(property "Reference" "SW15"
+			(at 253.746 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 253.746 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom-libary:Kailh_socket_PG1350"
+			(at 253.746 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 253.746 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 253.746 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97349489-7156-4086-ab8d-a11db94dfda0")
+		)
+		(pin "2"
+			(uuid "a82e866b-773f-4ed3-aebb-8202f03e1d48")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS")
+		(at 210.058 85.598 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a0be193-1dff-4d83-826b-d4bbb9a32dc7")
+		(property "Reference" "SW3"
+			(at 210.058 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 210.058 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom-libary:Kailh_socket_PG1350"
+			(at 210.058 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.058 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.058 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09c1f7ba-2bd0-4012-9524-954b2dd2d582")
+		)
+		(pin "2"
+			(uuid "1d41c8de-b626-41d8-9f03-db10fca91bf2")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 245.364 53.594 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cc45b82-41cc-4838-866d-28ecd2b449f7")
+		(property "Reference" "D12"
+			(at 247.65 53.5939 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 247.65 54.8639 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 245.364 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.364 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 245.364 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3971dba-5253-46b1-bc68-6270c0692ffc")
+		)
+		(pin "2"
+			(uuid "2c0a61b5-2cc7-4d64-9072-6b7a1bd49da5")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS")
+		(at 220.98 85.598 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fe30269-77cd-48d6-88af-e31e28c0a449")
+		(property "Reference" "SW7"
+			(at 220.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 220.98 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom-libary:Kailh_socket_PG1350"
+			(at 220.98 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ec45f3a-eeaa-4812-b2d3-991ca0a498d2")
+		)
+		(pin "2"
+			(uuid "d9869ebd-7dae-4e9c-8b5d-e0c7e8b756ea")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS")
+		(at 210.058 103.378 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93f27e2d-caac-4ca9-945a-d992949ee46c")
+		(property "Reference" "SW4"
+			(at 210.058 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 210.058 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom-libary:Kailh_socket_PG1350"
+			(at 210.058 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.058 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.058 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d0dc555-38e4-4792-b996-9a14f33be4bf")
+		)
+		(pin "2"
+			(uuid "7b7f7634-937f-40fc-b546-16a190975c63")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS")
+		(at 253.746 66.802 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97e92812-a26e-42f9-9744-aebfe7072206")
+		(property "Reference" "SW16"
+			(at 253.746 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 253.746 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom-libary:Kailh_socket_PG1350"
+			(at 253.746 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 253.746 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 253.746 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9caa1ea7-37f7-44c5-b5f3-f46386b54013")
+		)
+		(pin "2"
+			(uuid "301258b7-73b1-4876-ae9f-bf9d8af6d8c5")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS")
+		(at 242.824 85.598 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9da3b92f-275e-4651-9d4f-edd94514ba6b")
+		(property "Reference" "SW14"
+			(at 242.824 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 242.824 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom-libary:Kailh_socket_PG1350"
+			(at 242.824 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.824 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.824 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5683b278-6a0e-411c-a96f-8095485b6ea5")
+		)
+		(pin "2"
+			(uuid "4e50f04c-8899-49b7-be9c-a62f1c0d0fc8")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 234.442 53.594 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a617a8cb-34fa-4374-b7c5-c52500a12b17")
+		(property "Reference" "D9"
+			(at 236.22 53.5939 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 236.22 54.8639 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 234.442 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.442 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.442 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69d1f808-4a5c-48ec-9c5b-cba408568a2e")
+		)
+		(pin "2"
+			(uuid "5bd58036-a051-4569-89c9-b8ecfa9ff4bc")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 223.52 108.458 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a83dd489-d474-416c-b1c1-ee5926049d5e")
+		(property "Reference" "D8"
+			(at 226.06 108.4579 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 226.06 109.7279 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 223.52 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 108.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d3f276f-b06b-4d5d-b042-327fd78ae77c")
+		)
+		(pin "2"
+			(uuid "573580dc-00e7-4ecb-94fe-b397ac54759f")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 234.442 90.678 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a90fdca7-6378-4f13-aa2c-24229265a79a")
+		(property "Reference" "D11"
+			(at 236.22 90.6779 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 236.22 91.9479 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 234.442 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.442 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.442 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23de56c1-65e3-4d76-96d4-3e052bd72f12")
+		)
+		(pin "2"
+			(uuid "a5fdf50f-d3a4-46ac-a3ef-f79a8ae91feb")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS")
+		(at 242.824 66.802 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1d79f98-74cf-457c-ac71-1f2e0c583c62")
+		(property "Reference" "SW13"
+			(at 242.824 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 242.824 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom-libary:Kailh_socket_PG1350"
+			(at 242.824 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.824 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.824 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a8c8d71-9507-4142-8477-dff62a1dd6a3")
+		)
+		(pin "2"
+			(uuid "6bd37860-1345-40e6-9657-acf0b79106f2")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS")
+		(at 220.98 66.802 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b49550dd-a9bf-44a1-828e-85eedcb47fc6")
+		(property "Reference" "SW6"
+			(at 220.98 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 220.98 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom-libary:Kailh_socket_PG1350"
+			(at 220.98 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7f7bb82-2069-416f-b864-b48e02501371")
+		)
+		(pin "2"
+			(uuid "26a2e6ff-29b2-4d07-b809-7f92788d0c70")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS")
+		(at 231.902 66.802 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bad8c8c1-96f2-4e87-9e37-44f9de4e1b76")
+		(property "Reference" "SW10"
+			(at 231.902 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 231.902 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom-libary:Kailh_socket_PG1350"
+			(at 231.902 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.902 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.902 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f626a67-c82e-46ca-86fb-1c2d6d679d3d")
+		)
+		(pin "2"
+			(uuid "a3d76292-c290-4745-ba08-a30a21dc7a87")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS")
+		(at 231.902 85.598 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e22fe73a-37f1-46fb-84e4-34845ca16baf")
+		(property "Reference" "SW11"
+			(at 231.902 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 231.902 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom-libary:Kailh_socket_PG1350"
+			(at 231.902 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.902 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.902 85.598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b71ec6e-5b9a-44e3-ab2c-876c6bbad4a9")
+		)
+		(pin "2"
+			(uuid "ed9ff99e-d0fe-4369-b074-2e2960d0d8a7")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 212.598 71.882 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4188a03-2d5a-4658-98ab-23222cded6b6")
+		(property "Reference" "D2"
+			(at 214.63 71.8819 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 214.63 73.1519 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 212.598 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.598 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.598 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a186e12-326d-4e21-97d6-da9e3edbcf49")
+		)
+		(pin "2"
+			(uuid "a97a457b-021e-4db1-93a1-418d79619660")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 212.598 53.594 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9526c57-b366-48d6-a855-b0c4d2f5d2f5")
+		(property "Reference" "D1"
+			(at 214.63 53.5939 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 214.63 54.8639 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 212.598 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.598 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.598 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a516448-041a-4cc8-9ca2-60a0f64336c3")
+		)
+		(pin "2"
+			(uuid "38b5508c-9291-4893-973a-df92c2abf60e")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 223.52 71.882 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ece2aaaa-cd89-4b05-9aad-28c6bcd42bf1")
+		(property "Reference" "D6"
+			(at 226.06 71.8819 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 226.06 73.1519 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 223.52 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f459cf6e-eb94-49ee-a178-89961037a059")
+		)
+		(pin "2"
+			(uuid "20ba9572-c83c-4651-8d58-610e7cfe03ca")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 212.598 90.678 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f449073e-9cc9-4168-9810-beb6172383d4")
+		(property "Reference" "D3"
+			(at 214.63 90.6779 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 214.63 91.9479 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 212.598 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.598 90.678 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.598 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbef6308-b02b-4f76-97e2-d0f807d78e26")
+		)
+		(pin "2"
+			(uuid "76b2abbe-d07a-40ad-a54a-4412e1f756ff")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS")
+		(at 242.824 48.514 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd894db4-f749-4c95-bf10-58e25f0cfe31")
+		(property "Reference" "SW12"
+			(at 242.824 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 242.824 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "custom-libary:Kailh_socket_PG1350"
+			(at 242.824 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.824 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.824 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43cc9abe-1dfa-408b-973c-9f749923c342")
+		)
+		(pin "2"
+			(uuid "2c5e296a-142a-4d7c-be56-55c5a52f7168")
+		)
+		(instances
+			(project "best-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
