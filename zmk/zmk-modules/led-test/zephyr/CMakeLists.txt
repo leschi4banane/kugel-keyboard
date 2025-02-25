@@ -1,6 +1,0 @@
-if(CONFIG_LIB_LED_TEST)
-  add_subdirectory(.. build)
-  set_property(GLOBAL APPEND PROPERTY ZEPHYR_INTERFACE_LIBS led_test)
-  #zephyr_include_directories(../include)
-  #zephyr_interface_library_named(sample)
-endif()

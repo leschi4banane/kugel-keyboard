@@ -1,1 +1,0 @@
-this is a simple led blinking module test, to test the zephyr module fuctionallity, syntax and pipeline
