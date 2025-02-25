@@ -4,3 +4,6 @@
 [submodule "ref/module-sample"]
 	path = ref/module-sample
 	url = git@github.com:yashi/module-sample.git
+[submodule "zmk/zmk-modules/zmk-led-test"]
+	path = zmk/zmk-modules/zmk-led-test
+	url = git@github.com:T0mmy312/zmk-led-test.git
