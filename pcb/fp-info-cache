@@ -1,4 +1,4 @@
-23848375175595189
+23862301252714445
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96739,3 +96739,59 @@ Varistor VF
 0
 2
 2
+custom-libary
+Battery_solder_pads
+JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH top entry
+0
+2
+2
+custom-libary
+Kailh_socket_PG1350
+Kailh "Choc" PG1350 keyswitch socket mount
+kailh,choc
+0
+2
+2
+custom-libary
+MDBT50Q-1MV2
+Raytac's MDBT50Q & MDBT50Q-P is a BT5.2 & BT5.1 stack (Bluetooth low energy or BLE) module designed based on Nordic nRF52840 SoC solution, which incorporates: GPIO, SPI, UART,I2C, I2S, PMD, PWM, ADC, NFC and USB interfaces for connecting peripherals and sensors.
+MCU, ARM, BLE, ANT, 2.4GHz, 802.15.4, nRF
+0
+61
+61
+custom-libary
+SKHLLBA010
+
+
+0
+4
+4
+custom-libary
+SOT95P275X110-6N
+
+
+0
+6
+6
+custom-libary
+SOT95P280X100-5N
+
+
+0
+5
+5
+custom-libary
+SW_TL6340AF160Q
+
+
+0
+5
+5
+custom-libary
+nice!view
+
+
+0
+5
+5
