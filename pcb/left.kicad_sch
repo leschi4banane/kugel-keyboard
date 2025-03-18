@@ -5,46 +5,49 @@
 	(uuid "b4629811-3a08-4cc3-9588-e97b758bc47f")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Battery_Management:LTC4054ES5-4.2"
+		(symbol "BQ25170DSGR:BQ25170DSGR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -5.842 6.604 0)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "LTC4054ES5-4.2"
-				(at 1.524 6.604 0)
+			(property "Value" "BQ25170DSGR"
+				(at 26.67 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
-				(at 0 -12.7 0)
+			(property "Footprint" "SON50P200X200X80-9N"
+				(at 26.67 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/405442xf.pdf"
-				(at 0 -2.54 0)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/bq25170"
+				(at 26.67 -194.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Constant-current/constant-voltage linear charger for single cell lithium-ion batteries with 2.9V Trickle Charge, 4.5V to 6.5V VDD, -40 to +85 degree Celsius, TSOT-23-5"
+			(property "Description" "BQ25170DSGR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -53,28 +56,60 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Constant-current constant-voltage linear charger single cell lithium-ion battery"
-				(at 0 0 0)
+			(property "Height" "0.8"
+				(at 26.67 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TSOT?23*"
-				(at 0 0 0)
+			(property "Mouser Part Number" "595-BQ25170DSGR"
+				(at 26.67 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "LTC4054ES5-4.2_0_1"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ25170DSGR?qs=iLbezkQI%252BsiCISFdSxQWaQ%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BQ25170DSGR"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BQ25170DSGR_1_1"
 				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -7.62)
+					(start 5.08 2.54)
+					(end 25.4 -15.24)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -83,12 +118,10 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "LTC4054ES5-4.2_1_1"
-				(pin open_collector line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "~{CHRG}"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -103,10 +136,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "ISET"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -121,10 +154,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "BAT"
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "TS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -139,10 +172,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 7.62 270)
-					(length 2.54)
-					(name "V_{CC}"
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -157,10 +190,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "PROG"
+				(pin passive line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "STAT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -168,6 +201,78 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "~{PG}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "VSET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -20.32 90)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6164,7 +6269,7 @@
 		(uuid "a7a93803-2611-4c75-84c3-a69e62c33d46")
 	)
 	(junction
-		(at 162.56 114.3)
+		(at 181.61 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aba8e709-6f71-465c-8451-79e4234b04e1")
@@ -6248,12 +6353,6 @@
 		(uuid "d972919f-02af-4442-857c-8ae1e0e9134f")
 	)
 	(junction
-		(at 147.32 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de7aa8ed-6b1e-4964-aaec-c0d90ede8337")
-	)
-	(junction
 		(at 144.78 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6306,6 +6405,10 @@
 		(uuid "120960fb-cf32-4bfd-b38c-c4c897414a4d")
 	)
 	(no_connect
+		(at 157.48 109.22)
+		(uuid "156b0861-edad-4ea0-ae64-4a04ceb55d6b")
+	)
+	(no_connect
 		(at 250.19 38.1)
 		(uuid "15c65b70-14f3-4645-bfb6-8ea71936e863")
 	)
@@ -6354,10 +6457,6 @@
 		(uuid "870cc0b9-aca5-4373-8748-e3f11c0f8f76")
 	)
 	(no_connect
-		(at 123.19 111.76)
-		(uuid "8a47b68e-5f47-40b1-982d-6e082c496582")
-	)
-	(no_connect
 		(at 278.13 121.92)
 		(uuid "9070b156-4800-4290-8a2e-633e564a5c47")
 	)
@@ -6398,6 +6497,10 @@
 		(uuid "d8b74c2b-646f-4af1-a97a-fe018cdb69dd")
 	)
 	(no_connect
+		(at 157.48 111.76)
+		(uuid "dddb618d-8ccd-48e0-8a80-b8b7850a6e80")
+	)
+	(no_connect
 		(at 53.34 66.04)
 		(uuid "e3589fdc-5fb7-4e74-a833-aeb1a1f9ec2d")
 	)
@@ -6426,6 +6529,16 @@
 			(type default)
 		)
 		(uuid "00465b66-aa96-484b-bb4a-9f0767b729b6")
+	)
+	(wire
+		(pts
+			(xy 157.48 106.68) (xy 163.83 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00926039-14a6-47ce-a8a1-ea6ed59d3d67")
 	)
 	(wire
 		(pts
@@ -6499,6 +6612,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 111.76) (xy 125.73 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cce9452-5a8f-4c4d-9e48-bd89b9a4e9f1")
+	)
+	(wire
+		(pts
 			(xy 172.72 246.38) (xy 173.99 246.38)
 		)
 		(stroke
@@ -6509,7 +6632,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 114.3) (xy 186.69 115.57)
+			(xy 184.15 96.52) (xy 184.15 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6659,16 +6782,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 121.92) (xy 133.35 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e5bc5bf-cb6e-495a-833d-de90e710bbb0")
-	)
-	(wire
-		(pts
 			(xy 133.35 220.98) (xy 133.35 222.25)
 		)
 		(stroke
@@ -6696,6 +6809,16 @@
 			(type default)
 		)
 		(uuid "22185c9f-f10f-41ab-be11-db3ddcbadff1")
+	)
+	(wire
+		(pts
+			(xy 163.83 106.68) (xy 163.83 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ad17fe-c458-4cae-b2b6-7ee0b31ed0fe")
 	)
 	(wire
 		(pts
@@ -6729,16 +6852,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 111.76) (xy 147.32 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29e499b9-06d8-4fc7-a824-565de9f42711")
-	)
-	(wire
-		(pts
 			(xy 156.21 251.46) (xy 156.21 255.27)
 		)
 		(stroke
@@ -6766,26 +6879,6 @@
 			(type default)
 		)
 		(uuid "2c3dad33-3a14-4134-afb3-4d4a0e3119f8")
-	)
-	(wire
-		(pts
-			(xy 123.19 114.3) (xy 121.92 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c5cdee7-d5dd-49f2-ba0a-fbddd6838f5a")
-	)
-	(wire
-		(pts
-			(xy 121.92 123.19) (xy 121.92 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f0348fc-8fcf-4f10-93c6-9f662208a969")
 	)
 	(wire
 		(pts
@@ -6896,6 +6989,16 @@
 			(type default)
 		)
 		(uuid "379712c1-a9b8-4bc4-b50a-736556e583a6")
+	)
+	(wire
+		(pts
+			(xy 125.73 111.76) (xy 127 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3811ba45-3192-43a8-97b0-ec9b314e268b")
 	)
 	(wire
 		(pts
@@ -7189,7 +7292,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 113.03) (xy 162.56 114.3)
+			(xy 181.61 124.46) (xy 181.61 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7236,16 +7339,6 @@
 			(type default)
 		)
 		(uuid "5d4ce550-818c-4290-bbed-7b32a1de0560")
-	)
-	(wire
-		(pts
-			(xy 143.51 111.76) (xy 147.32 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e379753-2301-4b31-85f8-99266f7c9d55")
 	)
 	(wire
 		(pts
@@ -7419,13 +7512,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 114.3) (xy 162.56 115.57)
+			(xy 181.61 125.73) (xy 181.61 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6dff1a7d-15c5-4002-823b-3356cc4dbf03")
+	)
+	(wire
+		(pts
+			(xy 163.83 121.92) (xy 163.83 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e42fda4-9f5d-477d-9f09-fcbff70b30fb")
 	)
 	(wire
 		(pts
@@ -7619,7 +7722,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 114.3) (xy 185.42 114.3)
+			(xy 184.15 96.52) (xy 182.88 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7696,16 +7799,6 @@
 			(type default)
 		)
 		(uuid "83e83f45-a542-4746-83c0-eecc04ad5df8")
-	)
-	(wire
-		(pts
-			(xy 149.86 111.76) (xy 147.32 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8420c5fc-0440-4d9d-b5b5-50f930e5ab23")
 	)
 	(wire
 		(pts
@@ -7919,7 +8012,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 111.76) (xy 185.42 111.76)
+			(xy 184.15 93.98) (xy 182.88 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7936,6 +8029,26 @@
 			(type default)
 		)
 		(uuid "9bfbfdbc-94cf-436d-aaec-00fc9171be1e")
+	)
+	(wire
+		(pts
+			(xy 123.19 104.14) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3c2eb5-70d7-4a63-abbf-820ae1800c76")
+	)
+	(wire
+		(pts
+			(xy 113.03 113.03) (xy 113.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e65bdf0-cd7e-4846-ab55-2473f43faa39")
 	)
 	(wire
 		(pts
@@ -7956,16 +8069,6 @@
 			(type default)
 		)
 		(uuid "a2862e92-1434-4958-a8d6-e00e94582405")
-	)
-	(wire
-		(pts
-			(xy 147.32 120.65) (xy 147.32 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a45ae997-59f5-445a-a6b6-1d304933d191")
 	)
 	(wire
 		(pts
@@ -8009,6 +8112,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 102.87) (xy 123.19 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82e193d-f59c-45da-9332-6ab03a9a2028")
+	)
+	(wire
+		(pts
 			(xy 236.22 27.94) (xy 237.49 27.94)
 		)
 		(stroke
@@ -8039,6 +8152,26 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 113.03) (xy 118.11 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac4be0b6-eafe-4cb0-b11f-9f295acb0733")
+	)
+	(wire
+		(pts
+			(xy 157.48 104.14) (xy 167.64 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9a9fbc-fa8f-48e7-b83a-2896548dc305")
+	)
+	(wire
+		(pts
 			(xy 34.29 114.3) (xy 33.02 114.3)
 		)
 		(stroke
@@ -8066,6 +8199,16 @@
 			(type default)
 		)
 		(uuid "b09935ea-a7e1-4abe-bab8-145c02dc3e6e")
+	)
+	(wire
+		(pts
+			(xy 118.11 125.73) (xy 118.11 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3164c82-e527-464c-a54b-27f87e7eb1d7")
 	)
 	(wire
 		(pts
@@ -8309,6 +8452,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 109.22) (xy 127 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c300913f-d84b-46e8-84bc-1dc6c654595a")
+	)
+	(wire
+		(pts
 			(xy 157.48 279.4) (xy 157.48 280.67)
 		)
 		(stroke
@@ -8379,7 +8532,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 104.14) (xy 162.56 105.41)
+			(xy 181.61 115.57) (xy 181.61 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8486,16 +8639,6 @@
 			(type default)
 		)
 		(uuid "d584f5f8-d9af-41a7-bf09-e4d2e9e59dd9")
-	)
-	(wire
-		(pts
-			(xy 133.35 102.87) (xy 133.35 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d65840fa-0d27-45f5-b604-42cb3467253e")
 	)
 	(wire
 		(pts
@@ -8689,16 +8832,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 114.3) (xy 121.92 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2364052-483b-47ed-8e5e-34b779e4b507")
-	)
-	(wire
-		(pts
 			(xy 54.61 50.8) (xy 53.34 50.8)
 		)
 		(stroke
@@ -8816,6 +8949,16 @@
 			(type default)
 		)
 		(uuid "e9b3fe5f-3e7c-42d1-96a5-db8ee0c88c4f")
+	)
+	(wire
+		(pts
+			(xy 113.03 106.68) (xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0a5624-f077-4059-9d4a-657ee1ce5f93")
 	)
 	(wire
 		(pts
@@ -9009,13 +9152,23 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 123.19) (xy 162.56 124.46)
+			(xy 181.61 134.62) (xy 181.61 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fadce2aa-99da-4e6b-a49f-3f4c63b51a2a")
+	)
+	(wire
+		(pts
+			(xy 113.03 120.65) (xy 113.03 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc6a06bc-f16f-43c9-9749-e1738456f2bd")
 	)
 	(wire
 		(pts
@@ -9059,7 +9212,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 114.3) (xy 163.83 114.3)
+			(xy 181.61 125.73) (xy 182.88 125.73)
 		)
 		(stroke
 			(width 0)
@@ -9187,6 +9340,28 @@
 		)
 		(uuid "bee2fde7-5058-415d-b59d-6ade0dbd5fb1")
 	)
+	(text "R_ISet is 600 Ohm \nfor 500 mA charge current\n(from typical application)"
+		(exclude_from_sim no)
+		(at 109.728 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6d6920d-1953-4d48-9c0c-da38e4ca2a2b")
+	)
+	(text "R_VSet is 82kOhm for a\n3.6 V 1-cell LiFePO4 battery\n(DB: p.14 Table 7.1)"
+		(exclude_from_sim no)
+		(at 152.4 135.636 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1fce201-f56f-46e6-bca7-2afae4ed5698")
+	)
 	(label "P0.28"
 		(at 34.29 109.22 0)
 		(fields_autoplaced yes)
@@ -9242,6 +9417,17 @@
 		)
 		(uuid "05e88f72-64e3-482e-9235-03f0114f8006")
 	)
+	(label "VBAT"
+		(at 167.64 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "104b5ce2-0847-4ec3-b2c5-e6caa093081b")
+	)
 	(label "SWDIO"
 		(at 210.82 157.48 180)
 		(fields_autoplaced yes)
@@ -9252,17 +9438,6 @@
 			(justify right bottom)
 		)
 		(uuid "106d6023-d452-42da-8f5b-3008571d15a4")
-	)
-	(label "VBAT"
-		(at 149.86 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "111ee40f-5259-43aa-9c3e-0650ae2abaf3")
 	)
 	(label "VSWITCHED"
 		(at 240.03 36.83 90)
@@ -9331,7 +9506,7 @@
 		(uuid "284fa281-14d2-46fd-b0e8-a1b4ae86de95")
 	)
 	(label "VBAT"
-		(at 186.69 111.76 0)
+		(at 184.15 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9397,7 +9572,7 @@
 		(uuid "31557cae-950f-4eac-adee-2d0562d221fe")
 	)
 	(label "VBAT_SENSE"
-		(at 163.83 114.3 0)
+		(at 182.88 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9417,6 +9592,17 @@
 			(justify left bottom)
 		)
 		(uuid "34a703ba-f706-48ab-9eed-1fe129bb1545")
+	)
+	(label "heatsink"
+		(at 142.24 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ea16159-545e-49d5-acb3-0a3426b717b0")
 	)
 	(label "VBAT_SENSE"
 		(at 279.4 119.38 0)
@@ -9760,7 +9946,7 @@
 		(uuid "b6076afb-9a20-4cbb-b9c6-cb3bc76376e7")
 	)
 	(label "VBAT"
-		(at 162.56 104.14 90)
+		(at 181.61 115.57 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10085,82 +10271,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Battery_Management:LTC4054ES5-4.2")
-		(at 133.35 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "096714c2-f1fc-4c13-b75c-3e4ea4d3b9d1")
-		(property "Reference" "U6"
-			(at 127 102.362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTC4054ES5-4.2"
-			(at 120.142 104.902 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
-			(at 133.35 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/405442xf.pdf"
-			(at 133.35 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Constant-current/constant-voltage linear charger for single cell lithium-ion batteries with 2.9V Trickle Charge, 4.5V to 6.5V VDD, -40 to +85 degree Celsius, TSOT-23-5"
-			(at 133.35 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "76b8dcc9-807d-4d35-9029-88bce37dd215")
-		)
-		(pin "4"
-			(uuid "30a1c9ab-577e-4549-bd37-574938e1cf0b")
-		)
-		(pin "1"
-			(uuid "f6d207cf-5374-4d93-bed2-8c1bd0249c88")
-		)
-		(pin "2"
-			(uuid "22941c08-1eb9-4568-8e70-f1c7d34f57fc")
-		)
-		(pin "3"
-			(uuid "a0b5514b-c989-4db1-9dce-d092e34e1dc7")
-		)
-		(instances
-			(project "kugel-keyboard"
-				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 121.92 44.45 0)
 		(mirror y)
@@ -10223,6 +10333,75 @@
 			(project "kugel-keyboard"
 				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
 					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fc11bd6-7e48-44ed-87e7-8e014a88e8f9")
+		(property "Reference" "R1"
+			(at 107.696 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "604"
+			(at 107.696 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 114.808 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06455f86-3731-4014-aa77-e088a5ac38d7")
+		)
+		(pin "1"
+			(uuid "c0c5d6d6-ab2b-404d-a942-b26cbe1a5938")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -10299,6 +10478,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 123.19 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11670595-8626-4981-899d-a35cdd5b54c6")
+		(property "Reference" "#PWR014"
+			(at 123.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "745e0a31-b7a8-44a7-bbd4-e17adb011ea2")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 144.78 218.44 270)
 		(mirror x)
@@ -10365,72 +10610,6 @@
 			(project "kugel-keyboard"
 				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
 					(reference "D26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 133.35 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ac189ab-926d-4593-848f-a8d42961f0c6")
-		(property "Reference" "#PWR039"
-			(at 133.35 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 133.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "817b1a1d-1218-4945-bba4-01a6bb399e61")
-		)
-		(instances
-			(project "kugel-keyboard"
-				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
-					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -10713,6 +10892,76 @@
 			(project "kugel-keyboard"
 				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
 					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 118.11 116.84 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f31ce6f-2af8-4bbb-9a21-c6e80bf374f0")
+		(property "Reference" "R24"
+			(at 120.65 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 120.65 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 119.888 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 118.11 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44a19cc5-b746-4bd6-9c8c-a057c97005af")
+		)
+		(pin "1"
+			(uuid "dd6665dc-1e97-4eb0-8dcc-15a7056dc6f9")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -11170,75 +11419,6 @@
 			(project "kugel-keyboard"
 				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 121.92 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2ce446e4-c835-4f96-ac8a-36286ece446c")
-		(property "Reference" "R12"
-			(at 117.856 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2k"
-			(at 117.856 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 120.142 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 121.92 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bbe4afc-f80f-4e97-a9b4-50963e4b2ffc")
-		)
-		(pin "2"
-			(uuid "43788233-b5e6-4dc8-be94-c27556a69dee")
-		)
-		(instances
-			(project "kugel-keyboard"
-				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -12028,7 +12208,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 119.38 0)
+		(at 181.61 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12037,7 +12217,7 @@
 		(fields_autoplaced yes)
 		(uuid "4793357e-1892-4255-bce0-d0cb351413a3")
 		(property "Reference" "R15"
-			(at 165.1 118.1099 0)
+			(at 184.15 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12046,7 +12226,7 @@
 			)
 		)
 		(property "Value" "2M"
-			(at 165.1 120.6499 0)
+			(at 184.15 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12055,7 +12235,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 160.782 119.38 90)
+			(at 179.832 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12064,7 +12244,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 119.38 0)
+			(at 181.61 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12073,7 +12253,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 119.38 0)
+			(at 181.61 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12239,6 +12419,72 @@
 			(project "kugel-keyboard"
 				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
 					(reference "FL2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 118.11 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dcb215e-41b5-4a0c-9def-d3569c538d18")
+		(property "Reference" "#PWR013"
+			(at 118.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c8371ec-8c39-4009-877b-15d9db557304")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -12519,7 +12765,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 180.34 114.3 180)
+		(at 177.8 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12527,7 +12773,7 @@
 		(dnp no)
 		(uuid "5f0dae60-ed83-407e-96db-df1c005a9cb9")
 		(property "Reference" "J12"
-			(at 184.15 116.586 0)
+			(at 181.61 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12536,7 +12782,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 193.294 107.95 0)
+			(at 190.754 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12545,7 +12791,7 @@
 			)
 		)
 		(property "Footprint" "custom-libary:Battery_solder_pads"
-			(at 180.34 114.3 0)
+			(at 177.8 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12554,7 +12800,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 114.3 0)
+			(at 177.8 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12563,7 +12809,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 180.34 114.3 0)
+			(at 177.8 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12927,6 +13173,147 @@
 		)
 	)
 	(symbol
+		(lib_id "BQ25170DSGR:BQ25170DSGR")
+		(at 127 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b658d8b-e7d6-4543-b6d3-a782a2397091")
+		(property "Reference" "IC2"
+			(at 142.24 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BQ25170DSGR"
+			(at 142.24 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SON50P200X200X80-9N"
+			(at 153.67 199.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/bq25170"
+			(at 153.67 299.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "BQ25170DSGR"
+			(at 127 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 153.67 499.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-BQ25170DSGR"
+			(at 153.67 599.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ25170DSGR?qs=iLbezkQI%252BsiCISFdSxQWaQ%3D%3D"
+			(at 153.67 699.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 153.67 799.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BQ25170DSGR"
+			(at 153.67 899.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "1d16c107-a4a5-4e33-976e-fd3c9f1d0cda")
+		)
+		(pin "8"
+			(uuid "fb48d48e-ac3c-4b32-bf27-5d931afea85b")
+		)
+		(pin "1"
+			(uuid "459776cc-c6e1-42e6-8716-3c10290f2aac")
+		)
+		(pin "3"
+			(uuid "f09b150b-e809-4720-aa04-40a221b1a444")
+		)
+		(pin "5"
+			(uuid "49f86f36-d9ee-4767-a1ad-dd3bd7b1ba84")
+		)
+		(pin "9"
+			(uuid "c8d16fe7-1ee6-4994-80ea-6f7870b0508c")
+		)
+		(pin "2"
+			(uuid "79134cea-10a2-4226-8e86-46541684add1")
+		)
+		(pin "6"
+			(uuid "14cd46dc-db74-4236-a404-c4450e8440e3")
+		)
+		(pin "4"
+			(uuid "1b16bfe7-e44d-4dde-8d41-7b27b22fa045")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 163.83 172.72 270)
 		(unit 1)
@@ -13064,6 +13451,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 163.83 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "708347c8-811c-481f-840c-450b29e7d5ca")
+		(property "Reference" "R25"
+			(at 166.37 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "82k"
+			(at 166.37 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 165.608 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f3850ac8-ce13-485a-a627-da70452c7c45")
+		)
+		(pin "1"
+			(uuid "f5904086-9977-4767-8f03-ea968a157aff")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "marbastlib-mx:MX_SW_HS")
 		(at 158.75 229.87 0)
 		(mirror y)
@@ -13193,73 +13650,6 @@
 			(project "kugel-keyboard"
 				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
 					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 147.32 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "834c9306-a249-49e3-ace1-72d6f45ea09c")
-		(property "Reference" "C6"
-			(at 153.162 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 150.622 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 148.2852 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 147.32 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2db068b3-46b8-4baa-b701-808c7536f20a")
-		)
-		(pin "2"
-			(uuid "54b0a997-40bc-4724-accf-852d0bd0cd4b")
-		)
-		(instances
-			(project "kugel-keyboard"
-				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -13472,8 +13862,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 125.73 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87f8f8ab-2720-43f6-8fc1-72c752853de9")
+		(property "Reference" "#PWR015"
+			(at 125.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1fbe874-33d5-4664-9812-6116fca4183b")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 162.56 109.22 0)
+		(at 181.61 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13482,7 +13938,7 @@
 		(fields_autoplaced yes)
 		(uuid "884f163a-70e8-413b-ac17-6949334f8c71")
 		(property "Reference" "R14"
-			(at 165.1 107.9499 0)
+			(at 184.15 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13491,7 +13947,7 @@
 			)
 		)
 		(property "Value" "806K"
-			(at 165.1 110.4899 0)
+			(at 184.15 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13500,7 +13956,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 160.782 109.22 90)
+			(at 179.832 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13509,7 +13965,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 109.22 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13518,7 +13974,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 109.22 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13543,7 +13999,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 124.46 0)
+		(at 181.61 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13552,7 +14008,7 @@
 		(fields_autoplaced yes)
 		(uuid "8947146e-d2d5-43a8-8363-c61121760bf9")
 		(property "Reference" "#PWR043"
-			(at 162.56 130.81 0)
+			(at 181.61 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13561,7 +14017,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 129.54 0)
+			(at 181.61 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13569,7 +14025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 124.46 0)
+			(at 181.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13578,7 +14034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 124.46 0)
+			(at 181.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13587,7 +14043,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 124.46 0)
+			(at 181.61 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13602,72 +14058,6 @@
 			(project "kugel-keyboard"
 				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 147.32 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8af076c7-af19-46a4-86ba-ab32d1965271")
-		(property "Reference" "#PWR040"
-			(at 147.32 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 147.32 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f57125a-b072-43da-8d0f-fbbb9d8dccea")
-		)
-		(instances
-			(project "kugel-keyboard"
-				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -13880,72 +14270,6 @@
 			(project "kugel-keyboard"
 				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
 					(reference "SW35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 121.92 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92a55ff9-be4a-49aa-a9ab-60e9a8e3f754")
-		(property "Reference" "#PWR036"
-			(at 121.92 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0cc477fc-4b5d-4bcc-9d74-7c7d216a1c68")
-		)
-		(instances
-			(project "kugel-keyboard"
-				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -15208,6 +15532,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 113.03 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8584e33-ffad-44b7-8ac2-7568a83ea2f7")
+		(property "Reference" "#PWR011"
+			(at 113.03 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abc8004f-c3f1-41bd-a6d7-612a78add14c")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 232.41 27.94 270)
 		(unit 1)
@@ -15341,7 +15731,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 115.57 0)
+		(at 184.15 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15350,7 +15740,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc5efc98-5429-4827-a204-4b0be0620d63")
 		(property "Reference" "#PWR046"
-			(at 186.69 121.92 0)
+			(at 184.15 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15359,7 +15749,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 120.65 0)
+			(at 184.15 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15367,7 +15757,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 115.57 0)
+			(at 184.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15376,7 +15766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 115.57 0)
+			(at 184.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15385,7 +15775,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 115.57 0)
+			(at 184.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15633,6 +16023,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 163.83 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d575e8f0-6c2a-4ed3-93ee-245bf86f19b6")
+		(property "Reference" "#PWR056"
+			(at 163.83 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 163.83 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9d803ea-77f9-4210-b2c1-f8cb34aefa0b")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "marbastlib-mx:MX_SW_HS")
 		(at 135.89 229.87 0)
 		(mirror y)
@@ -15835,72 +16291,6 @@
 			(project "kugel-keyboard"
 				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
 					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 133.35 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd0b5685-0c9d-4325-ae51-bc4f618e579f")
-		(property "Reference" "#PWR038"
-			(at 133.35 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 133.35 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 133.35 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6d039d5-b113-43a5-8f39-9af3191390db")
-		)
-		(instances
-			(project "kugel-keyboard"
-				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
-					(reference "#PWR038")
 					(unit 1)
 				)
 			)
