@@ -1,4 +1,4 @@
-23869269869924886
+23860552344836317
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96764,6 +96764,13 @@ custom-libary
 DIO_PESD5V0S1UL_315
 
 
+0
+2
+2
+custom-libary
+FC2012SN32768K90NNA0KC0
+FC2012SN 32.768K-90NNA0KC0-2
+Crystal or Oscillator
 0
 2
 2
