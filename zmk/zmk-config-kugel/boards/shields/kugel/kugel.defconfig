@@ -1,0 +1,6 @@
+if SHIELD_KUGEL
+
+config ZMK_KEYBOARD_NAME
+    default "kugel"
+
+endif

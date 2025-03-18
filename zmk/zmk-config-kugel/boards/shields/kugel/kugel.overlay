@@ -23,10 +23,8 @@
                RC(0,2) RC(0,3)>;
     };
 
-    led_blink_0 {
-        status = "okay";
-        compatible = "led-blink-driver";
-        led-gpios = <&gpio0 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        irq-gpios = <&gpio0 19 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+    led0 {
+        compatible = "led,blink-driver";
+        led-gpio = <&gpio0 13 GPIO_ACTIVE_LOW>;
     };
 };
