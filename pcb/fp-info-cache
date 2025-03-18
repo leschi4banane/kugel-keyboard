@@ -1,4 +1,4 @@
-23862301252714445
+23869269869924886
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96740,9 +96740,30 @@ Varistor VF
 2
 2
 custom-libary
+BEADC1608X95N
+
+
+0
+2
+2
+custom-libary
 Battery_solder_pads
 JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
 connector JST PH top entry
+0
+2
+2
+custom-libary
+DIO_ESD122DMYR
+
+
+0
+3
+3
+custom-libary
+DIO_PESD5V0S1UL_315
+
+
 0
 2
 2
@@ -96788,6 +96809,13 @@ SW_TL6340AF160Q
 0
 5
 5
+custom-libary
+mouse-bite-3mm-slot
+
+
+0
+0
+0
 custom-libary
 nice!view
 
