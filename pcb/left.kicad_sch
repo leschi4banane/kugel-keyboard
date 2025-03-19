@@ -3703,261 +3703,6 @@
 				)
 			)
 		)
-		(symbol "custom-libary:MAX16054AZT_T"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 13.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "MAX16054AZT_T"
-				(at -12.7 -16.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "MAX16054AZT_T:SOT95P275X110-6N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Analog Devices"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n                        \n                            On/Off Controller with Debounce and ±15kV ESD Protection\n                        \n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SOT-23-6 Maxim"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX16054AZT+T/Analog+Devices/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "MAX16054AZT+T"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/MAX16054AZT+T/Analog+Devices/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "MAX16054AZT_T_0_0"
-				(rectangle
-					(start -12.7 -12.7)
-					(end 12.7 12.7)
-					(stroke
-						(width 0.41)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -17.78 5.08 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -10.16 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -2.54 0)
-					(length 5.08)
-					(name "CLEAR"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 5.08 180)
-					(length 5.08)
-					(name "~{OUT}"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 2.54 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 10.16 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "custom-libary:MDBT50Q"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5409,6 +5154,337 @@
 				)
 			)
 		)
+		(symbol "custom-libary:STM6601BM2DDM6F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 31.75 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "STM6601BM2DDM6F"
+				(at 31.75 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "STM6601BM2DDM6F"
+				(at 31.75 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm6600.pdf"
+				(at 31.75 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Smart push-button on/off controller with Smart Reset and power-on lockout"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.8"
+				(at 31.75 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-STM6601BM2DDM6F"
+				(at 31.75 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM6601BM2DDM6F?qs=o6NP%252B98Z%252BR08ShqKwVDIQQ%3D%3D"
+				(at 31.75 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 31.75 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "STM6601BM2DDM6F"
+				(at 31.75 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "STM6601BM2DDM6F_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 30.48 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -5.08 180)
+					(length 5.08)
+					(name "~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -2.54 180)
+					(length 5.08)
+					(name "~{INT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "~{SR}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "VREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "PSHOLD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "CSRD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "~{PB}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -12.7 180)
+					(length 5.08)
+					(name "~{VCCLO}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -10.16 180)
+					(length 5.08)
+					(name "~{PBOUT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -7.62 180)
+					(length 5.08)
+					(name "EN_(~{EN)}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "custom-libary:nice!view"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6119,12 +6195,6 @@
 		(uuid "2ae2e6b0-cfb5-4819-8b0d-56a67c2e3401")
 	)
 	(junction
-		(at 184.15 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f2f44a6-ac19-4db6-a69d-e6a4b2cc2824")
-	)
-	(junction
 		(at 38.1 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6191,12 +6261,6 @@
 		(uuid "660a5770-d195-44aa-a4af-fb1f735db800")
 	)
 	(junction
-		(at 165.1 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67b8db6a-b471-4ebf-888b-1286156d19a9")
-	)
-	(junction
 		(at 234.95 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6219,12 +6283,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a195d93-056d-4371-9d1c-a82d82462ace")
-	)
-	(junction
-		(at 127 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ed61ce4-9a0a-4243-bbeb-edc38fd8b8d7")
 	)
 	(junction
 		(at 54.61 35.56)
@@ -6257,16 +6315,16 @@
 		(uuid "9eff527b-7930-4fc5-ab01-9a4cc4f19232")
 	)
 	(junction
-		(at 171.45 36.83)
+		(at 171.45 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a1c93d77-1309-4a6b-80c5-51c291a312dc")
+		(uuid "a2b149db-fd87-46d0-9e40-1a0bb2818f55")
 	)
 	(junction
-		(at 171.45 46.99)
+		(at 171.45 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a7a93803-2611-4c75-84c3-a69e62c33d46")
+		(uuid "a9233fc6-14fa-4bd6-af30-e620e865301a")
 	)
 	(junction
 		(at 181.61 125.73)
@@ -6291,6 +6349,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5b1564a-00a7-4dec-aa82-59d8e25cbc3d")
+	)
+	(junction
+		(at 185.42 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6c9227c-4eca-485a-ad14-1cade5e6bf1d")
 	)
 	(junction
 		(at 54.61 26.67)
@@ -6389,6 +6453,12 @@
 		(uuid "ed1eef82-a52b-4cf4-897e-9e3fb29d55f5")
 	)
 	(junction
+		(at 114.3 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed344853-7c41-4c87-bfd4-0dd2a53b057c")
+	)
+	(junction
 		(at 167.64 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6449,6 +6519,10 @@
 		(uuid "78c981fd-88d3-4c52-ad65-6b1d2021aa98")
 	)
 	(no_connect
+		(at 165.1 53.34)
+		(uuid "7d548e8b-6223-402f-95f7-a01a74a3ba12")
+	)
+	(no_connect
 		(at 53.34 68.58)
 		(uuid "82cf5caa-a6bf-4555-8162-ab47d81be0f5")
 	)
@@ -6473,6 +6547,10 @@
 		(uuid "acfe9cea-19ec-47d2-81fb-dc5dd1bba916")
 	)
 	(no_connect
+		(at 129.54 43.18)
+		(uuid "b980be76-bd9e-44e0-a359-c75350ae807b")
+	)
+	(no_connect
 		(at 278.13 152.4)
 		(uuid "bee4423a-5d65-42d5-b471-a212eeadc3a9")
 	)
@@ -6483,6 +6561,10 @@
 	(no_connect
 		(at 278.13 111.76)
 		(uuid "c6ddb1b7-78c2-4737-a237-5373f45dbddf")
+	)
+	(no_connect
+		(at 165.1 43.18)
+		(uuid "d188b7f1-5be3-454a-b5d0-29ad65c9daed")
 	)
 	(no_connect
 		(at 278.13 149.86)
@@ -6505,6 +6587,10 @@
 		(uuid "e3589fdc-5fb7-4e74-a833-aeb1a1f9ec2d")
 	)
 	(no_connect
+		(at 165.1 50.8)
+		(uuid "e5d9c2ee-5e39-4bf9-8abb-309b92f11e0c")
+	)
+	(no_connect
 		(at 278.13 99.06)
 		(uuid "e67626ab-fda8-4607-aa62-71a2710726fe")
 	)
@@ -6513,12 +6599,16 @@
 		(uuid "e7448185-4788-4951-979b-a1fb23e1335c")
 	)
 	(no_connect
-		(at 163.83 44.45)
-		(uuid "e7bb14ec-6fe8-49f8-a87e-a4037b097e60")
-	)
-	(no_connect
 		(at 278.13 73.66)
 		(uuid "edfb2590-a387-4374-8b0e-9a39639cf2a1")
+	)
+	(no_connect
+		(at 129.54 50.8)
+		(uuid "f599d1fe-77ae-4adf-8986-4ba17285305f")
+	)
+	(no_connect
+		(at 165.1 45.72)
+		(uuid "fea08cc4-5e86-4d5c-95ba-8561305fb998")
 	)
 	(wire
 		(pts
@@ -6592,6 +6682,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 53.34) (xy 128.27 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f805e3-1797-4e9e-bc8d-b26fa4dad4d7")
+	)
+	(wire
+		(pts
 			(xy 167.64 172.72) (xy 168.91 172.72)
 		)
 		(stroke
@@ -6599,16 +6699,6 @@
 			(type default)
 		)
 		(uuid "076dc235-606a-4959-aaba-adc354fe59fa")
-	)
-	(wire
-		(pts
-			(xy 127 52.07) (xy 128.27 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07e9abb4-fe50-4468-b9df-19ad82bbd2ec")
 	)
 	(wire
 		(pts
@@ -6750,16 +6840,6 @@
 		)
 		(uuid "18d046ac-2585-41a1-bb94-a7d02e8ccb04")
 	)
-	(wire
-		(pts
-			(xy 184.15 44.45) (xy 184.15 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1972b6fd-872a-4101-bb7c-cb8f5ddc0d82")
-	)
 	(polyline
 		(pts
 			(xy 313.69 193.04) (xy 313.69 193.04)
@@ -6769,6 +6849,26 @@
 			(type dash)
 		)
 		(uuid "1a2a5053-cee8-45d5-adb8-3ed857f7fd9c")
+	)
+	(wire
+		(pts
+			(xy 114.3 40.64) (xy 114.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a425626-dd13-41fd-8c79-fc2b5b9367ff")
+	)
+	(wire
+		(pts
+			(xy 111.76 40.64) (xy 114.3 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6e6e10-a69d-46bd-87b5-3f830f6b2a17")
 	)
 	(wire
 		(pts
@@ -6912,6 +7012,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 45.72) (xy 129.54 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3213ec55-105a-4cc2-a24e-2fb3837c0b25")
+	)
+	(wire
+		(pts
 			(xy 54.61 38.1) (xy 53.34 38.1)
 		)
 		(stroke
@@ -6962,16 +7072,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 36.83) (xy 182.88 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36f2509e-a912-4c62-a32e-c7a84698dd91")
-	)
-	(wire
-		(pts
 			(xy 121.92 251.46) (xy 121.92 255.27)
 		)
 		(stroke
@@ -6999,16 +7099,6 @@
 			(type default)
 		)
 		(uuid "3811ba45-3192-43a8-97b0-ec9b314e268b")
-	)
-	(wire
-		(pts
-			(xy 185.42 36.83) (xy 184.15 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c5ee18e-2b28-492f-8dbd-abc7cc5d816a")
 	)
 	(wire
 		(pts
@@ -7079,6 +7169,16 @@
 			(type default)
 		)
 		(uuid "43820abd-f1fa-4e07-a619-1c71858afd04")
+	)
+	(wire
+		(pts
+			(xy 170.18 38.1) (xy 171.45 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "440980ec-017f-4b7a-b144-073ba7525658")
 	)
 	(wire
 		(pts
@@ -7222,13 +7322,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 36.83) (xy 171.45 36.83)
+			(xy 128.27 53.34) (xy 129.54 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50337a94-6df4-46fe-b6d6-402aa8ee7331")
+		(uuid "5112bdc1-e009-46c6-b71a-e7b47084351e")
 	)
 	(wire
 		(pts
@@ -7269,6 +7369,16 @@
 			(type default)
 		)
 		(uuid "530470a4-4434-4144-a3f4-deaef6631cb2")
+	)
+	(wire
+		(pts
+			(xy 123.19 46.99) (xy 123.19 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53aea3fd-3a86-4b0b-9629-9054bcc97f38")
 	)
 	(wire
 		(pts
@@ -7322,6 +7432,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 38.1) (xy 172.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5b9738-0f9e-452d-9a40-688e124a7946")
+	)
+	(wire
+		(pts
 			(xy 38.1 242.57) (xy 39.37 242.57)
 		)
 		(stroke
@@ -7329,16 +7449,6 @@
 			(type default)
 		)
 		(uuid "5c7cc064-02a1-4806-84bc-b3851ffee12e")
-	)
-	(wire
-		(pts
-			(xy 171.45 45.72) (xy 171.45 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d4ce550-818c-4290-bbed-7b32a1de0560")
 	)
 	(wire
 		(pts
@@ -7432,13 +7542,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 59.69) (xy 165.1 60.96)
+			(xy 171.45 46.99) (xy 171.45 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "652b173e-185e-4274-8692-66016f9b32f4")
+		(uuid "64d95702-ab38-40a6-8271-5df10792228c")
 	)
 	(wire
 		(pts
@@ -7449,6 +7559,16 @@
 			(type default)
 		)
 		(uuid "65a51190-cbfe-4b5f-9f7e-3000a1e976b1")
+	)
+	(wire
+		(pts
+			(xy 114.3 54.61) (xy 114.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "663f10a4-1c7c-4656-a5c4-a1e9e90479d0")
 	)
 	(wire
 		(pts
@@ -7530,16 +7650,6 @@
 		)
 		(uuid "6e42fda4-9f5d-477d-9f09-fcbff70b30fb")
 	)
-	(wire
-		(pts
-			(xy 127 44.45) (xy 128.27 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e4e6495-da85-417c-82e1-dea802ffd144")
-	)
 	(polyline
 		(pts
 			(xy 12.7 83.82) (xy 198.12 83.82)
@@ -7592,16 +7702,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 46.99) (xy 171.45 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7348dbc5-09da-4d9d-8bae-56620b58cd56")
-	)
-	(wire
-		(pts
 			(xy 144.78 261.62) (xy 156.21 261.62)
 		)
 		(stroke
@@ -7609,6 +7709,16 @@
 			(type default)
 		)
 		(uuid "75c367f1-14fc-4263-bfe0-6f78c998381f")
+	)
+	(wire
+		(pts
+			(xy 185.42 38.1) (xy 186.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772bab2e-9eaa-43fa-9cc8-939d4f1aeea0")
 	)
 	(wire
 		(pts
@@ -7659,16 +7769,6 @@
 			(type default)
 		)
 		(uuid "791741f4-489f-4229-a760-619da09331ec")
-	)
-	(wire
-		(pts
-			(xy 165.1 36.83) (xy 171.45 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7918afa9-e777-42aa-8af9-7d3e8f4d733f")
 	)
 	(wire
 		(pts
@@ -7742,6 +7842,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 38.1) (xy 171.45 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db56612-e588-40af-9bf3-e35417927d91")
+	)
+	(wire
+		(pts
 			(xy 144.78 240.03) (xy 133.35 240.03)
 		)
 		(stroke
@@ -7772,16 +7882,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 46.99) (xy 177.8 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80a260e6-69ea-4d96-aaf6-d21e306367c5")
-	)
-	(wire
-		(pts
 			(xy 242.57 181.61) (xy 247.65 181.61)
 		)
 		(stroke
@@ -7799,6 +7899,16 @@
 			(type default)
 		)
 		(uuid "83e83f45-a542-4746-83c0-eecc04ad5df8")
+	)
+	(wire
+		(pts
+			(xy 185.42 45.72) (xy 185.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858a9e9a-4a09-4e74-bf41-47a9bc431593")
 	)
 	(wire
 		(pts
@@ -7839,16 +7949,6 @@
 			(type default)
 		)
 		(uuid "88ecf9eb-1e66-4719-9905-c5d365ede0a0")
-	)
-	(wire
-		(pts
-			(xy 177.8 46.99) (xy 177.8 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89c4bbdb-9b55-45f3-98fe-6ab4a2be1a44")
 	)
 	(wire
 		(pts
@@ -7902,16 +8002,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 53.34) (xy 127 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8efb57d0-6ab9-43a8-bfd1-cd18118ad41d")
-	)
-	(wire
-		(pts
 			(xy 161.29 227.33) (xy 162.56 227.33)
 		)
 		(stroke
@@ -7922,13 +8012,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 39.37) (xy 165.1 36.83)
+			(xy 123.19 67.31) (xy 123.19 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f203dec-ca5d-4648-a7e0-6c19f9f5e358")
+		(uuid "9013e4eb-6df1-4d08-ac37-e5e05019fbeb")
 	)
 	(wire
 		(pts
@@ -8002,6 +8092,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 40.64) (xy 165.1 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a31b06b-a9b6-44e9-ac23-ca271d0fcb91")
+	)
+	(wire
+		(pts
 			(xy 54.61 53.34) (xy 80.01 53.34)
 		)
 		(stroke
@@ -8072,13 +8172,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 35.56) (xy 165.1 36.83)
+			(xy 182.88 38.1) (xy 185.42 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a484a055-a484-474d-a9d2-e0d2866cc17f")
+		(uuid "a2afa1f2-6d58-4aec-82ed-78a8d714c2ee")
 	)
 	(polyline
 		(pts
@@ -8282,6 +8382,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 40.64) (xy 129.54 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52aa0e0-5749-45e6-9acb-9d8c7bb85d31")
+	)
+	(wire
+		(pts
 			(xy 34.29 104.14) (xy 33.02 104.14)
 		)
 		(stroke
@@ -8422,16 +8532,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 59.69) (xy 165.1 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c224074a-42c8-41c5-b5d3-9ea72cbea743")
-	)
-	(wire
-		(pts
 			(xy 157.48 273.05) (xy 157.48 274.32)
 		)
 		(stroke
@@ -8469,16 +8569,6 @@
 			(type default)
 		)
 		(uuid "c344917a-6074-4431-8213-cb293c0894dd")
-	)
-	(wire
-		(pts
-			(xy 165.1 39.37) (xy 163.83 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4c265ce-0d10-4af4-a984-b9340767ddf7")
 	)
 	(wire
 		(pts
@@ -8589,16 +8679,6 @@
 			(type default)
 		)
 		(uuid "d0731992-a29c-4f92-bc5a-ff68ccb39379")
-	)
-	(wire
-		(pts
-			(xy 116.84 44.45) (xy 115.57 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d16f0554-b520-4de4-a16f-e4e80de904b9")
 	)
 	(wire
 		(pts
@@ -8762,6 +8842,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 40.64) (xy 167.64 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de36f58f-ed62-4255-8da5-2bec8e4c9218")
+	)
+	(wire
+		(pts
 			(xy 121.92 220.98) (xy 121.92 222.25)
 		)
 		(stroke
@@ -8802,6 +8892,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 48.26) (xy 177.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df754a9e-3b2e-4c94-a96f-b8f8e294d5a0")
+	)
+	(wire
+		(pts
 			(xy 53.34 55.88) (xy 54.61 55.88)
 		)
 		(stroke
@@ -8819,16 +8919,6 @@
 			(type default)
 		)
 		(uuid "e0f21c95-a40e-41e6-b3a1-fbaf204b4b00")
-	)
-	(wire
-		(pts
-			(xy 125.73 52.07) (xy 127 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0fc4fd5-6d23-4074-83bf-d8a689d463ad")
 	)
 	(wire
 		(pts
@@ -8899,6 +8989,16 @@
 			(type default)
 		)
 		(uuid "e72d9c8e-0e01-4e28-bb5e-c6785924691b")
+	)
+	(wire
+		(pts
+			(xy 165.1 48.26) (xy 171.45 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e8f13a-7ae6-42c4-b0b9-f47bd071afe5")
 	)
 	(wire
 		(pts
@@ -8999,6 +9099,16 @@
 			(type default)
 		)
 		(uuid "ecc6154a-5291-4544-8e1d-d8bb7fa5510a")
+	)
+	(wire
+		(pts
+			(xy 128.27 66.04) (xy 128.27 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef91e902-16e4-4676-b59d-72b8081243c6")
 	)
 	(wire
 		(pts
@@ -9132,16 +9242,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 36.83) (xy 171.45 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f88a0f9a-c9d0-43d1-a16d-57b4cd4a3aa0")
-	)
-	(wire
-		(pts
 			(xy 87.63 53.34) (xy 99.06 53.34)
 		)
 		(stroke
@@ -9202,16 +9302,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 44.45) (xy 115.57 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdd79b3f-a6b6-4097-b2b2-5111168ec4c4")
-	)
-	(wire
-		(pts
 			(xy 181.61 125.73) (xy 182.88 125.73)
 		)
 		(stroke
@@ -9219,6 +9309,16 @@
 			(type default)
 		)
 		(uuid "fe686546-cedb-40cd-b8fa-ea396e9ddf2b")
+	)
+	(wire
+		(pts
+			(xy 171.45 48.26) (xy 177.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff0576c9-6061-42a0-a665-6b2a1b8d9e0c")
 	)
 	(wire
 		(pts
@@ -9494,6 +9594,17 @@
 		)
 		(uuid "234ac135-eb0f-4165-bb0e-c975dcb1c6b9")
 	)
+	(label "VBAT"
+		(at 170.18 38.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27fa09c6-7cb5-4540-9a5a-a0022c4537f8")
+	)
 	(label "P1.08"
 		(at 279.4 147.32 0)
 		(fields_autoplaced yes)
@@ -9637,6 +9748,17 @@
 		)
 		(uuid "4963f2d7-a1ba-4714-9164-230ffa5f1494")
 	)
+	(label "VBAT"
+		(at 129.54 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49b95b2e-abd6-467b-a0a3-cfad450fbe69")
+	)
 	(label "D-"
 		(at 279.4 170.18 0)
 		(fields_autoplaced yes)
@@ -9658,17 +9780,6 @@
 			(justify left bottom)
 		)
 		(uuid "4f707620-dc5c-4010-9af2-151545a284b3")
-	)
-	(label "VBAT"
-		(at 165.1 35.56 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b21efcd-57a8-40e1-b470-8016e81dff77")
 	)
 	(label "col4"
 		(at 128.27 208.28 90)
@@ -9902,7 +10013,7 @@
 		(uuid "a55c0355-6b05-47e0-8a64-1dd10875e36f")
 	)
 	(label "VSWITCHED"
-		(at 185.42 36.83 0)
+		(at 186.69 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9910,7 +10021,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ad18fa0f-4648-4e3c-8d9f-5c8fc1bf029d")
+		(uuid "a7d91ad4-f9bc-46e5-91ee-e6cdca6f95fc")
 	)
 	(label "D-"
 		(at 55.88 52.07 0)
@@ -9988,6 +10099,17 @@
 			(justify left bottom)
 		)
 		(uuid "c1bab05e-f5f1-4482-9ada-fbf33ca688f4")
+	)
+	(label "VBAT"
+		(at 111.76 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c29f3dee-4991-466f-be8a-ec2a9f96f302")
 	)
 	(label "P1.03"
 		(at 34.29 127 0)
@@ -10076,17 +10198,6 @@
 			(justify left bottom)
 		)
 		(uuid "e6fe9cfc-8760-44e4-8eb2-9405a939021d")
-	)
-	(label "CLEAR"
-		(at 125.73 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ea2419e0-a08a-43c4-b0cf-1dc5239f5fba")
 	)
 	(label "col2"
 		(at 279.4 88.9 0)
@@ -10265,74 +10376,6 @@
 			(project "kugel-keyboard"
 				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 121.92 44.45 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e054d3e-bd59-4278-befb-a777f5a59699")
-		(property "Reference" "SW21"
-			(at 121.92 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 121.92 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "custom-libary:SW_TL6340AF160Q"
-			(at 121.92 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 121.92 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f80d3aff-fe1e-48ec-b479-80f0da9983e7")
-		)
-		(pin "1"
-			(uuid "8f1c43ba-d0cd-4a78-9c51-86ecc8c93edf")
-		)
-		(instances
-			(project "kugel-keyboard"
-				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
-					(reference "SW21")
 					(unit 1)
 				)
 			)
@@ -11220,72 +11263,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 127 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29350f61-b105-4f5b-9197-3cf3da0ef789")
-		(property "Reference" "#PWR037"
-			(at 127 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53e16901-f1a1-4130-aa2d-ab123de15f40")
-		)
-		(instances
-			(project "kugel-keyboard"
-				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
-					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Small")
 		(at 144.78 236.22 270)
 		(mirror x)
@@ -11900,241 +11877,6 @@
 			(project "kugel-keyboard"
 				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
 					(reference "SW24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:IRLML6402")
-		(at 177.8 39.37 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f0ccb8d-5d8d-447a-a9e3-ffbe13fa3404")
-		(property "Reference" "Q2"
-			(at 177.8 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IRLML6402"
-			(at 177.8 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 175.895 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
-			(at 173.99 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
-			(at 177.8 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c4b42ec2-b3e2-49be-8e31-086d2bdf2615")
-		)
-		(pin "1"
-			(uuid "b886595f-3916-4861-8cea-31ab5b761d37")
-		)
-		(pin "2"
-			(uuid "80cf929c-f54b-4e5c-b721-c4bd2bbef1f8")
-		)
-		(instances
-			(project "kugel-keyboard"
-				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "custom-libary:MAX16054AZT_T")
-		(at 146.05 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ffc96b2-227a-4606-9f36-8b3fe703a895")
-		(property "Reference" "U7"
-			(at 146.05 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX16054AZT_T"
-			(at 146.05 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "custom-libary:SOT95P275X110-6N"
-			(at 146.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Analog Devices"
-			(at 146.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n                        \n                            On/Off Controller with Debounce and ±15kV ESD Protection\n                        \n"
-			(at 146.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-23-6 Maxim"
-			(at 146.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 146.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MAX16054AZT+T/Analog+Devices/view-part/?ref=snap"
-			(at 146.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "MAX16054AZT+T"
-			(at 146.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 146.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/MAX16054AZT+T/Analog+Devices/view-part/?ref=eda"
-			(at 146.05 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "7197395f-6ad2-45a2-ac86-407e53c867a2")
-		)
-		(pin "6"
-			(uuid "ce8880e2-0aa5-4556-a706-82660471f30d")
-		)
-		(pin "1"
-			(uuid "7afb2c42-74dd-49a8-8e84-0542524199a2")
-		)
-		(pin "5"
-			(uuid "79ac5433-b459-4888-b1c0-add55c3c7ac0")
-		)
-		(pin "3"
-			(uuid "58c57370-4e86-4631-a097-520ed02254a4")
-		)
-		(pin "2"
-			(uuid "172f19a2-c6c9-4386-9000-1abe54d7f9d7")
-		)
-		(instances
-			(project "kugel-keyboard"
-				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
-					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -13106,73 +12848,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 171.45 41.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a100979-94f8-4605-bf5b-7decee49a80e")
-		(property "Reference" "R16"
-			(at 167.386 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 169.164 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 173.228 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.45 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5554fba-bf55-4085-b0a8-74b787427a1f")
-		)
-		(pin "2"
-			(uuid "8e7adb90-6d67-431c-b97b-047c7434d33f")
-		)
-		(instances
-			(project "kugel-keyboard"
-				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "BQ25170DSGR:BQ25170DSGR")
 		(at 127 104.14 0)
 		(unit 1)
@@ -13656,32 +13331,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 127 57.15 180)
+		(lib_id "power:GND")
+		(at 167.64 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "86143136-b6a3-4953-bdbb-b58af051ffe7")
-		(property "Reference" "R13"
-			(at 122.936 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 124.714 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 128.778 57.15 90)
+		(fields_autoplaced yes)
+		(uuid "7bf0d3d6-f109-4022-9db6-d116dfbe6068")
+		(property "Reference" "#PWR020"
+			(at 167.64 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13689,8 +13349,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 127 57.15 0)
+		(property "Value" "GND"
+			(at 167.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13698,8 +13366,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 127 57.15 0)
+		(property "Datasheet" ""
+			(at 167.64 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13708,15 +13385,148 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0e3933c-7450-43e4-a678-b6615e4aa189")
-		)
-		(pin "2"
-			(uuid "78ca476e-202f-4f9f-b90c-643a4c054bb0")
+			(uuid "05eb4f6c-056d-48f1-8e26-e39fef13e165")
 		)
 		(instances
 			(project "kugel-keyboard"
 				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
-					(reference "R13")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 128.27 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c9cf4ee-ce72-4c1b-87cf-f355f215584d")
+		(property "Reference" "SW21"
+			(at 132.08 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 132.08 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "custom-libary:SW_TL6340AF160Q"
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 128.27 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "45672d9a-7263-4e97-90ec-fbd3313a00b2")
+		)
+		(pin "1"
+			(uuid "5150e80f-3bea-4765-9fc6-4b777b6f0794")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "840879d9-84c2-4541-9f1f-ddd5c0e955cc")
+		(property "Reference" "#PWR058"
+			(at 185.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "229a242f-c495-4467-8bcd-a8798b9b93b2")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -14206,6 +14016,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 114.3 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90b35366-954b-486e-93c4-c9edd782f5df")
+		(property "Reference" "#PWR010"
+			(at 114.3 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "646e8818-9a19-49a8-af7a-db3214df6151")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "marbastlib-mx:MX_SW_HS")
 		(at 135.89 248.92 0)
 		(mirror y)
@@ -14417,138 +14293,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94f4a6e8-9815-4f7d-bb04-2d375a479850")
-		(property "Reference" "#PWR035"
-			(at 115.57 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 115.57 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "490233b6-628d-46de-804b-672fbee1f386")
-		)
-		(instances
-			(project "kugel-keyboard"
-				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 184.15 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "996629af-a30d-4612-aa89-edb11759c225")
-		(property "Reference" "#PWR045"
-			(at 184.15 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.15 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c749149f-23e6-4c9d-96b7-fd00c7d90858")
-		)
-		(instances
-			(project "kugel-keyboard"
-				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
-					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 148.59 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14608,6 +14352,146 @@
 			(project "kugel-keyboard"
 				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IRLML6402")
+		(at 177.8 40.64 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d058602-e14b-40b1-a972-d0754e0a8dac")
+		(property "Reference" "Q1"
+			(at 177.8 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRLML6402"
+			(at 177.8 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 175.895 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/irlml6402pbf.pdf?fileId=5546d462533600a401535668d5c2263c"
+			(at 173.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-3.7A Id, -20V Vds, 65mOhm Rds, P-Channel HEXFET Power MOSFET, SOT-23"
+			(at 177.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "75df23d7-63bc-4d1c-9007-62bbf26faaae")
+		)
+		(pin "1"
+			(uuid "f4d93bea-7345-49e4-ac2e-2d157e706b33")
+		)
+		(pin "2"
+			(uuid "e03ad2b6-31cf-4482-bc80-0f909d81d1af")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e02b96a-4e7e-445b-949d-27b9ef0a5048")
+		(property "Reference" "#PWR012"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d143b635-41fd-49ee-80df-5121b17da3a3")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -14815,17 +14699,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 165.1 60.96 0)
+		(lib_id "Device:C")
+		(at 114.3 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a595ceaf-d5b3-4802-b2e7-9aefd93cf2c1")
-		(property "Reference" "#PWR044"
-			(at 165.1 67.31 0)
+		(uuid "a622b23d-b934-4547-9688-fd13fc7dce1f")
+		(property "Reference" "C4"
+			(at 110.49 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 108.458 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 115.2652 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14833,16 +14732,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 165.1 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 60.96 0)
+		(property "Datasheet" "~"
+			(at 114.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14850,8 +14741,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 165.1 60.96 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14859,22 +14750,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "2"
+			(uuid "856b6be2-d20e-4439-a5de-946d7484be7c")
 		)
 		(pin "1"
-			(uuid "a57e7fef-586e-4ca1-b71d-d824b0d93987")
+			(uuid "8f19dc4a-0250-45b9-8faa-489dafa068e1")
 		)
 		(instances
 			(project "kugel-keyboard"
 				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
-					(reference "#PWR044")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -15083,6 +14968,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 128.27 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af77e3ce-214e-4d28-957a-ae6edb9f14ad")
+		(property "Reference" "#PWR019"
+			(at 128.27 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "720ac850-5d28-4765-8afe-59a81905ec1d")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 36.83 179.07 270)
 		(unit 1)
@@ -15144,6 +15095,73 @@
 			(project "kugel-keyboard"
 				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 171.45 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b32ba191-8c81-483a-8dae-e87ada2f44d7")
+		(property "Reference" "R7"
+			(at 173.736 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 175.26 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 173.228 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f49836aa-ca66-4f8c-9df0-3d7ebddc90f7")
+		)
+		(pin "2"
+			(uuid "4e088542-1051-4b94-b59d-96c680180e7b")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -15229,73 +15247,6 @@
 			(project "kugel-keyboard"
 				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
 					(reference "D36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 184.15 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b7016c97-abec-4c5c-a3bf-f2778ed59b28")
-		(property "Reference" "C7"
-			(at 189.992 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 187.452 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 185.1152 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 184.15 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "876b5a1b-91d6-4f28-b35b-06579db3b127")
-		)
-		(pin "2"
-			(uuid "ba9b44a5-d78f-471c-8f96-fb8aa3a59bbe")
-		)
-		(instances
-			(project "kugel-keyboard"
-				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -15938,6 +15889,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 123.19 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c988395f-b044-4450-9d9e-3fe6a8fba466")
+		(property "Reference" "C16"
+			(at 119.38 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 117.348 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 124.1552 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84376535-b35f-4ab6-bfc4-aadd7695cc18")
+		)
+		(pin "1"
+			(uuid "925d2a7d-64e0-46f8-a917-8fab61d1b0e0")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 83.82 58.42 0)
 		(unit 1)
@@ -16297,6 +16315,156 @@
 		)
 	)
 	(symbol
+		(lib_id "custom-libary:STM6601BM2DDM6F")
+		(at 129.54 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1aab1da-b2b3-4076-950f-7f44686bd94d")
+		(property "Reference" "IC4"
+			(at 147.32 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STM6601BM2DDM6F"
+			(at 147.32 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom-libary:STM6601BM2DDM6F"
+			(at 161.29 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm6600.pdf"
+			(at 161.29 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Smart push-button on/off controller with Smart Reset and power-on lockout"
+			(at 129.54 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 161.29 435.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-STM6601BM2DDM6F"
+			(at 161.29 535.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM6601BM2DDM6F?qs=o6NP%252B98Z%252BR08ShqKwVDIQQ%3D%3D"
+			(at 161.29 635.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 161.29 735.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STM6601BM2DDM6F"
+			(at 161.29 835.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "e1b56b45-29fb-4eec-b4d5-04af21f5eadf")
+		)
+		(pin "5"
+			(uuid "4625513e-ec0b-4456-8c14-5b4cf1fbb914")
+		)
+		(pin "6"
+			(uuid "a9c8c7fa-f4ba-4c05-a344-b1c30a138d8f")
+		)
+		(pin "2"
+			(uuid "7653d606-b686-4d3d-a02c-1023c26d8bd7")
+		)
+		(pin "7"
+			(uuid "e44988e5-f86f-4415-a0ec-ba5a9c9fe062")
+		)
+		(pin "11"
+			(uuid "5bb2283b-6fb7-4e23-bd93-3c01cccf1550")
+		)
+		(pin "12"
+			(uuid "8f836ab1-3f92-45f6-9614-6f78b4f14705")
+		)
+		(pin "4"
+			(uuid "faee4536-bce1-413b-99e7-86fe9f329b15")
+		)
+		(pin "1"
+			(uuid "5d18c80b-f573-40f0-8381-15c5fc877256")
+		)
+		(pin "8"
+			(uuid "02b9a079-39ca-4655-96ae-b4c46aa6a59f")
+		)
+		(pin "9"
+			(uuid "835feaca-7348-4da4-99ff-9cdf61ad80ad")
+		)
+		(pin "3"
+			(uuid "00b2f78b-948e-4f0b-b939-c085629a07de")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 38.1 233.68 0)
 		(unit 1)
@@ -16424,6 +16592,73 @@
 			(project "kugel-keyboard"
 				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5f7d18d-fe92-4891-ab93-e12b1ad53676")
+		(property "Reference" "C17"
+			(at 191.262 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 188.722 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 186.3852 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 185.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd6cc555-9abf-45ce-b760-2ced7d955987")
+		)
+		(pin "2"
+			(uuid "700039ff-25c7-4c28-b4be-7dcfa317c28c")
+		)
+		(instances
+			(project "kugel-keyboard"
+				(path "/6cfa0f05-d3ea-41d5-8615-030d5d9d7a38/d28f1ab8-648d-4266-804c-d1cfd88310dc"
+					(reference "C17")
 					(unit 1)
 				)
 			)

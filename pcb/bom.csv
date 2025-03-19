@@ -1,29 +1,29 @@
-Designator;Footprint;Quantity;Value;Mouser
-C1, C10, C2, C3, C4, C5, C6, C7, C8, C9;603;10;10u;https://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R60J106KE47J?qs=rzUXcgKXlod3avm0jBPNNA%3D%3D
-Key diodes;Nexperia_CFP3_SOD-123W;34;D_Small;https://eu.mouser.com/ProductDetail/Vishay-Semiconductors/1N4148W-E3-08?qs=bTzheeSci6TVjpxfjjRVMw%3D%3D&srsltid=AfmBOopCxnFwF4eq1CGY3MFJu--jtkTLwtISI_rZ_lDEGUir10Hgtjz5
-D40, D36, D35, D39;PESD5V0C1ULS-QYL;4;Some strange one;https://eu.mouser.com/ProductDetail/Nexperia/PESD5V0C1ULS-QYL?qs=vvQtp7zwQdO9m4epnPwlPw%3D%3D&srsltid=AfmBOoqkEN-wFQOxMWHoyvb-Lj1ia9pjGlcCmrJ5ijce5itzAKKXmDcG
-D37, D38;DIO_PESD5V0S1UL_315;2;PESD5V0S1UL_315;https://eu.mouser.com/ProductDetail/Nexperia/PESD5V0S1UL315?qs=LOCUfHb8d9sSC%2FUB7ugsVw%3D%3D&srsltid=AfmBOoqjBLqC550bPothAIkV1T_ost4picQ0DJRkn-BcgsbVQggfhDyI&utm_source=chatgpt.com
-FL1, FL2;BEADC1608X95N;2;BLM18KG221SN1D;https://eu.mouser.com/ProductDetail/Murata-Electronics/BLM18KG221SN1D?qs=rvfpa0%252BU10N2faicZ8Ovig%3D%3D&srsltid=AfmBOopRieYf2SyUHv4u5bwZ0YD6aLnDc41DbDzz5NZmZ5w1SMz6eRKW&utm_source=chatgpt.com
-J1, J13, J6, J7;Hirose_FH12-15S-0.5SH_1x15-1MP_P0.50mm_Horizontal;4;Conn_01x15_Pin;https://eu.mouser.com/ProductDetail/Hirose-Connector/FH12-15S-0.5SH55?qs=Ux3WWAnHpjCekIvxd%252B1wfA%3D%3D&srsltid=AfmBOorryHARsQnEnnPpBfblGhczun7F5K2nSxOHKbnWxv0GPUg84t7P&utm_source=chatgpt.com
-J12, J3;Battery_solder_pads;2;Conn_01x02_Socket;-
-J2, J8;USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal;2;USB_C_Receptacle_USB2.0_16P;https://eu.mouser.com/ProductDetail/GCT/USB4105-GF-A?qs=KUoIvG%2F9IlY%2FMLlBMpStpA%3D%3D&srsltid=AfmBOoogZ6oIJiwhXFtgMVpDzkM5ejijmfiaMk1KDX9QaPal0AK65Yvi&utm_source=chatgpt.com
-J4;PinHeader_1x15_P2.54mm_Vertical;1;Conn_01x15_Pin;-
-Q1, Q2;SOT-23;2;IRLML6402;https://eu.mouser.com/ProductDetail/Infineon-Technologies/IRLML6402TRPBF?qs=9%252BKlkBgLFf0HuZuONx2Ewg%3D%3D&utm_source=chatgpt.com
-R1, R12;603;2;2k;https://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW06032K00JNEAHP?qs=HxirigCxBBcDOw6JDUX0SQ%3D%3D
-R10, R11, R5, R9;603;4;5.1k;https://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW06035K10JNEAHP?qs=40TFAHZMFvcYcyAYrcLvWw%3D%3D
-R13, R16, R4, R6, R7, R8;603;6;100k;https://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100KJNEAHP?qs=k2%2FDWSARqgFmKZPW02j3Kw%3D%3D&srsltid=AfmBOorJIVOaqYUvEZrgAmBga1cej9mJDmr7dRyxP4nKIWTqNRMzOQ5-
-R14, R2;603;2;806K;https://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603806KFKEA?qs=iDmGvCT5Yjy1byDFxd8zjA%3D%3D
-R15, R3;603;2;2M;https://eu.mouser.com/ProductDetail/Bourns/CR0603-FW-2004ELF?qs=6oMev5NRZMHDUQIgaqJdTw%3D%3D
-R17, R18, R19, R20;603;4;1k;https://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW06031K00JNEAHP?qs=k2%2FDWSARqgEBKVR1NQ4Oug%3D%3D
-Keys;Kailh_socket_PG1350;34;MX_SW_HS;-
-SW18, SW19, SW20, SW21;SW_TL6340AF160Q;4;SW_Push;https://eu.mouser.com/ProductDetail/E-Switch/TL6340AF160Q?qs=GBLSl2AkirsfGJoGNVUeQw%3D%3D
-U1, U8;MDBT50Q-1MV2;2;MDBT50Q;https://eu.mouser.com/ProductDetail/Adafruit/4078?qs=vLWxofP3U2wEGR99myTcfQ%3D%3D
-U2, U6;TSOT-23-5;2;LTC4054ES5-4.2;https://eu.mouser.com/ProductDetail/Analog-Devices/LTC4054ES5-4.2TRMPBF?qs=hVkxg5c3xu%252BwrfxYTdXZ3A%3D%3D&srsltid=AfmBOopGvGKGSW2cn70xs9fw8RQcKKVFFnOkqEVDSeM_kxMI4sRSg9Jm&utm_source=chatgpt.com
-U3, U5;nice!view;2;~;
-U4, U7;SOT95P275X110-6N;2;MAX16054AZT_T;https://eu.mouser.com/ProductDetail/Analog-Devices-Maxim-Integrated/MAX16054AZT+T?qs=CDqwynd4ZNoG75aAAjGoqQ%3D%3D&srsltid=AfmBOoqF2v0qwWKPhRzZND2L1SWDnW3kln4QZEnUDl4VvY2OJAxYikJI&utm_source=chatgpt.com
-Y1, Y2;FC2012SN32768K90NNA0KC0;2;32.768 kHz;https://eu.mouser.com/ProductDetail/Epson-Timing/FC2012SN-32.768K-90NNA0KC0?qs=HoCaDK9Nz5e2hHfst9nD9Q%3D%3D
-C11, C12, C13, C14;603;4;12pF;https://www.mouser.at/ProductDetail/Walsin/0603N120F500CT?qs=sGAEpiMZZMsh%252B1woXyUXj9Vc%2FsqQGnyV3Y97hKBc%2FkE%3D
-IC1, IC2;SON50P200X200X80-9N;2;;https://www.mouser.at/ProductDetail/Texas-Instruments/BQ25170DSGR?qs=iLbezkQI%252BsiCISFdSxQWaQ%3D%3D
-R23, R24;603;2;10k;https://www.mouser.at/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=sGAEpiMZZMtlubZbdhIBIHFHA%252BLjIXrexE6X%2Fz%252Bm29E%3D
-R21, R1;603;2;604;https://www.mouser.at/ProductDetail/Panasonic/ERJ-PA3D6040V?qs=sGAEpiMZZMtlubZbdhIBIL24R7XL4VFWEowrJfCR%2FeY%3D
-R22, R25;603;2;82k;https://www.mouser.at/ProductDetail/ROHM-Semiconductor/SDR03EZPF8202?qs=sGAEpiMZZMtlubZbdhIBIORKzffmGzgutGR2YvzyvJk%3D
+Designator;Footprint;Quantity;Designation;Supplier and ref
+IC2,IC1;SON50P200X200X80-9N;2;BQ25170DSGR;https://www.mouser.at/ProductDetail/Texas-Instruments/BQ25170DSGR?qs=iLbezkQI%252BsiCISFdSxQWaQ%3D%3D
+IC4,IC3;STM6601BM2DDM6F;2;STM6601BM2DDM6F;https://eu.mouser.com/ProductDetail/STMicroelectronics/STM6601BM2DDM6F?qs=o6NP%252B98Z%252BR08ShqKwVDIQQ%3D%3D
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,;;40;;
+R12,R6,R4,R7;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;4;100k;https://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100KJNEAHP?qs=k2%2FDWSARqgFmKZPW02j3Kw%3D%3D&srsltid=AfmBOorJIVOaqYUvEZrgAmBga1cej9mJDmr7dRyxP4nKIWTqNRMzOQ5-
+Q3,Q1;SOT-23;2;IRLML6402;https://eu.mouser.com/ProductDetail/Infineon-Technologies/IRLML6402TRPBF?qs=9%252BKlkBgLFf0HuZuONx2Ewg%3D%3D&utm_source=chatgpt.com
+C17,C6,C2,C8,C9,C10,C3,C5,C1,C4;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;10;10u;https://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R60J106KE47J?qs=rzUXcgKXlod3avm0jBPNNA%3D%3D
+C16,C15;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;2;0.1u;https://www.mouser.at/ProductDetail/KYOCERA-AVX/KAM15AR71C104KM?qs=Jm2GQyTW%2FbjvjfiJhcHTCg%3D%3D
+SW31,SW35,SW11,SW34,SW8,SW7,SW26,SW16,SW38,SW10,SW14,SW3,SW33,SW15,SW28,SW25,SW32,SW2,SW27,SW12,SW30,SW37,SW1,SW13,SW4,SW22,SW17,SW5,SW29,SW36,SW6,SW9,SW23,SW24;Kailh_socket_PG1350;34;MX_SW_HS;
+J8,J2;USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal;2;USB_C_Receptacle_USB2.0_16P;https://eu.mouser.com/ProductDetail/GCT/USB4105-GF-A?qs=KUoIvG%2F9IlY%2FMLlBMpStpA%3D%3D&srsltid=AfmBOoogZ6oIJiwhXFtgMVpDzkM5ejijmfiaMk1KDX9QaPal0AK65Yvi&utm_source=chatgpt.com
+FL1,FL2;BEADC1608X95N;2;BLM18KG221SN1D;https://eu.mouser.com/ProductDetail/Murata-Electronics/BLM18KG221SN1D?qs=rvfpa0%252BU10N2faicZ8Ovig%3D%3D&srsltid=AfmBOopRieYf2SyUHv4u5bwZ0YD6aLnDc41DbDzz5NZmZ5w1SMz6eRKW&utm_source=chatgpt.com
+R15,R3;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;2;2M;https://eu.mouser.com/ProductDetail/Bourns/CR0603-FW-2004ELF?qs=6oMev5NRZMHDUQIgaqJdTw%3D%3D
+R17,R18,R19,R20;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;4;1k;https://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW06031K00JNEAHP?qs=k2%2FDWSARqgEBKVR1NQ4Oug%3D%3D
+U1,U8;MDBT50Q-1MV2;2;MDBT50Q;https://eu.mouser.com/ProductDetail/Adafruit/4078?qs=vLWxofP3U2wEGR99myTcfQ%3D%3D
+SW20,SW18,SW19,SW21;SW_TL6340AF160Q;4;SW_Push;https://eu.mouser.com/ProductDetail/E-Switch/TL6340AF160Q?qs=GBLSl2AkirsfGJoGNVUeQw%3D%3D
+R25,R22;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;2;82k;https://www.mouser.at/ProductDetail/ROHM-Semiconductor/SDR03EZPF8202?qs=sGAEpiMZZMtlubZbdhIBIORKzffmGzgutGR2YvzyvJk%3D
+R21,R1;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;2;604;https://www.mouser.at/ProductDetail/Panasonic/ERJ-PA3D6040V?qs=sGAEpiMZZMtlubZbdhIBIL24R7XL4VFWEowrJfCR%2FeY%3D
+D40,D39,D35,D36;D_SOD-882D;4;PESD5V0C1ULS-Q.;https://eu.mouser.com/ProductDetail/Nexperia/PESD5V0C1ULS-QYL?qs=vvQtp7zwQdO9m4epnPwlPw%3D%3D&srsltid=AfmBOoqkEN-wFQOxMWHoyvb-Lj1ia9pjGlcCmrJ5ijce5itzAKKXmDcG
+C13,C14,C12,C11;C_0603_1608Metric_Pad1.08x0.95mm_HandSolder;4;12p;https://www.mouser.at/ProductDetail/Walsin/0603N120F500CT?qs=sGAEpiMZZMsh%252B1woXyUXj9Vc%2FsqQGnyV3Y97hKBc%2FkE%3D
+R23,R24;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;2;10k;https://www.mouser.at/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=sGAEpiMZZMtlubZbdhIBIHFHA%252BLjIXrexE6X%2Fz%252Bm29E%3D
+J12,J3;Battery_solder_pads;2;Conn_01x02_Socket;
+R10,R11,R9,R5;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;4;5.1k;https://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW06035K10JNEAHP?qs=40TFAHZMFvcYcyAYrcLvWw%3D%3D
+U3,U5;nice!view;2;~;
+R14, R2;R_0603_1608Metric_Pad0.98x0.95mm_HandSolder;2;806K;https://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603806KFKEA?qs=iDmGvCT5Yjy1byDFxd8zjA%3D%3D
+Y2,Y1;FC2012SN32768K90NNA0KC0;2;32.768kHz;https://eu.mouser.com/ProductDetail/Epson-Timing/FC2012SN-32.768K-90NNA0KC0?qs=HoCaDK9Nz5e2hHfst9nD9Q%3D%3D
+J1,J6,J7,J13;Hirose_FH12-15S-0.5SH_1x15-1MP_P0.50mm_Horizontal;4;Conn_01x15_Pin;https://eu.mouser.com/ProductDetail/Hirose-Connector/FH12-15S-0.5SH55?qs=Ux3WWAnHpjCekIvxd%252B1wfA%3D%3D&srsltid=AfmBOorryHARsQnEnnPpBfblGhczun7F5K2nSxOHKbnWxv0GPUg84t7P&utm_source=chatgpt.com
+D38,D37;DIO_PESD5V0S1UL_315;2;PESD5V0S1UL_315;https://eu.mouser.com/ProductDetail/Nexperia/PESD5V0S1UL315?qs=LOCUfHb8d9sSC%2FUB7ugsVw%3D%3D&srsltid=AfmBOoqjBLqC550bPothAIkV1T_ost4picQ0DJRkn-BcgsbVQggfhDyI&utm_source=chatgpt.com
+D9,D29,D2,D8,D24,D4,D1,D15,D33,D6,D3,D31,D10,D11,D20,D27,D21,D28,D7,D14,D18,D19,D17,D12,D30,D5,D13,D23,D34,D25,D16,D32,D22,D26;Nexperia_CFP3_SOD-123W;34;D_Small;https://eu.mouser.com/ProductDetail/Vishay-Semiconductors/1N4148W-E3-08?qs=bTzheeSci6TVjpxfjjRVMw%3D%3D&srsltid=AfmBOopCxnFwF4eq1CGY3MFJu--jtkTLwtISI_rZ_lDEGUir10Hgtjz5
+J4;PinHeader_1x15_P2.54mm_Vertical;1;Conn_01x15_Pin;

@@ -1,4 +1,4 @@
-23862294658380336
+23864037035012856
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96816,6 +96816,13 @@ SOT95P280X100-5N
 0
 5
 5
+custom-libary
+STM6601BM2DDM6F
+STM6601BM2DDM6F-1
+Integrated Circuit
+0
+12
+12
 custom-libary
 SW_TL6340AF160Q
 
