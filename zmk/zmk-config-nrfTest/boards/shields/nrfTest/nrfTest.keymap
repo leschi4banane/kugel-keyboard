@@ -10,10 +10,17 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        default_layer { // layer 0
             bindings = <
                 &kp A   &kp B
-                &kp D   &bt BT_CLR_ALL
+                &tog 1  &bt BT_CLR_ALL
+            >;
+        };
+
+        scroll_layer { // layer 1
+            bindings = <
+                &kp D   &kp E
+                &tog 1  &kp F
             >;
         };
     };
