@@ -19,6 +19,6 @@
 #
 ---
 include:
-  - board: nrf52840_m2
+  - board: nrf52840_m2 nice_view_adapter nice_view
     shield: kugel
     snippet: zmk-usb-logging

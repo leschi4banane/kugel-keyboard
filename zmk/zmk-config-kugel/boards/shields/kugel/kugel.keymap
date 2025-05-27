@@ -3,20 +3,26 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+    behaviors {
+        hm: homerow_mods {
+                compatible = "zmk,behavior-hold-tap";
+                #binding-cells = <2>;
+                tapping-term-ms = <300>;
+                quick-tap-ms = <0>;
+                flavor = "tap-preferred";
+      q
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer { // layer 0
+        default_layer {
             bindings = <
-                &kp A   &kp B
-                &tog 1  &bt BT_CLR_ALL
-            >;
-        };
-
-        scroll_layer { // layer 1
-            bindings = <
-                &kp D   &kp E
-                &tog 1  &kp F
+                &kp Q  &kp W        &kp E       &kp R       &kp T
+                &kp A  &hm LCTRL S  &hm LALT D  &hm LCMD F  &kp G
+                &kp Z  &kp X        &kp C       &kp V       &kp B
+                                             &kp BSPC   &kp SPACE
             >;
         };
     };
